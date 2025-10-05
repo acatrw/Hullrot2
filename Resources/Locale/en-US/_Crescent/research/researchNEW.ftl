@@ -61,11 +61,16 @@ research-technology-cyberdawn-advancedballistics = Advanced Ballistics
 research-technology-cyberdawn-dnascram = DNA Scrambler
 research-technology-cyberdawn-emp = Electromagnetic Pulse Implant
 research-technology-cyberdawn-energydagger = Concealable Hardlight Dagger
+research-technology-cyberdawn-energysword = Hard light sword
+research-technology-cyberdawn-DoubleEnergysword = Hard light stabilization
 research-technology-cyberdawn-zhongyao = Zhongyao Tacsuit
+research-technology-CyberdawnShanlin = Shanlin Tacsuit
 research-technology-cyberdawn-egui = Egui Stealth Tacsuit
 research-technology-cyberdawn-psybreaker = Anti-Psionic Armaments
 research-technology-cyberdawn-thermals = Thermal Vision Goggles
 research-technology-cyberdawn-advancedlaunchers = Advanced Launchers
+research-technology-cyberdawn-CDTAdvancedComponents = Advanced components
+research-technology-cyberdawn-CDTAdvancedFirearmcomponents = Advanced Firearm components
 
 # DSM
 research-technology-imperial-basicclothes = Basic Tailoring

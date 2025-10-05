@@ -65,7 +65,7 @@
     heavyDamageBaseModifier: 1
     heavyStaminaCost: 10
     clickPartDamageMultiplier: 1.25
-    maxTargets: 3  
+    maxTargets: 3
   - type: DamageOtherOnHit
   - type: Item
     size: Small
@@ -346,11 +346,9 @@
     size: Small
     sprite: Objects/Weapons/Melee/e_sword_double-inhands.rsi
   - type: Reflect
-    reflectProb: .70
+    reflectProb: .50
     minReflectProb: .20
     spread: 75
-    reflects:
-      - Energy #DeltaV: 70% Energy Reflection but no ballistics.
   - type: UseDelay
     delay: 1
   - type: ToggleableLightVisuals

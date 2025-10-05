@@ -625,7 +625,7 @@
   result: HardlightGenerator1
   completetime: 2
   materials:
-    AdvancedElectronics: 300
+    AdvancedElectronics: 250
     Gold: 300
     Silver: 300
     Glass: 500
@@ -687,7 +687,7 @@
   result: BallisticCycler1
   completetime: 2
   materials:
-    AdvancedMechatronics: 1000
+    Mechatronics: 1000
     Steel: 1500
 
 #MARK: Melee

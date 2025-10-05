@@ -31,7 +31,7 @@
   - WeaponRifleAkCyberdawn
   - WeaponRifleKrinkovCyberdawn
   - WeaponPistolViperWoodCyberdawn
-  - BallisticCycler1Craft
+  - BallisticCyclerCDT
 
 - type: technology
   id: CyberdawnPowersink
@@ -84,6 +84,34 @@
   - MufflerFlatpack
 
 - type: technology
+  id: CDTAdvancedComponents
+  name: research-technology-cyberdawn-AdvancedComponents
+  icon:
+    sprite: _Crescent/Objects/Materials/materials.rsi
+    state: advancedmechanic
+  discipline: Cyberdawn
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+  - HardlightGenerator1CDT
+  - AdvancedMechatronics1CDT
+  - AdvancedElectronics1CDT
+
+- type: technology
+  id: CDTAdvancedweaponcomponents
+  name: research-technology-cyberdawn-Advancedweaponcomponents
+  icon:
+    sprite: _Crescent/Objects/Materials/materials.rsi
+    state: laserlocus
+  discipline: Cyberdawn
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+  - LaserLocus1CDT
+  - TubeLoader1CDT
+  - BallisticCyclerCDT
+
+- type: technology
   id: CyberdawnEmag
   name: research-technology-cyberdawn-emag
   icon:
@@ -94,6 +122,7 @@
   cost: 6000
   recipeUnlocks:
   - EmagCyberdawn
+  - DoormagCyberdawn
 
 - type: technology
   id: CyberdawnEmpImplanter
@@ -135,6 +164,18 @@
   - EnergyDagger
 
 - type: technology
+  id: Cyberdawnenergysword
+  name: research-technology-cyberdawn-energysword
+  icon:
+   sprite: Objects/Weapons/Melee/e_sword.rsi
+   state: e_sword
+  discipline: Cyberdawn
+  tier: 2
+  cost: 7500
+  recipeUnlocks:
+  - energysword
+
+- type: technology
   id: CyberdawnZhongyao
   name: research-technology-cyberdawn-zhongyao
   icon:
@@ -145,6 +186,18 @@
   cost: 5000
   recipeUnlocks:
   - ClothingOuterHardsuitSyndieMedicCyberdawn
+
+- type: technology
+  id: CyberdawnShanlin
+  name: research-technology-cyberdawn-Shanlin
+  icon:
+    sprite: _Impstation/Clothing/OuterClothing/Hardsuits/syndicate.rsi
+    state: icon
+  discipline: Cyberdawn
+  tier: 2
+  cost: 5000
+  recipeUnlocks:
+  - ClothingOuterHardsuitSyndieCyberdawn
 
 # tier 3
 
@@ -184,6 +237,18 @@
   cost: 8000
   recipeUnlocks:
   - ClothingEyesThermalVisionGogglesCyberdawn
+
+- type: technology
+  id: CyberdawnenDoubleEnergysword
+  name: research-technology-cyberdawn-DoubleEnergysword
+  icon:
+    sprite: Objects/Weapons/Melee/e_sword_double-inhands.rsi
+    state: e_sword
+  discipline: Cyberdawn
+  tier: 3
+  cost: 10000
+  recipeUnlocks:
+  - DoubleEnergysword
 
 - type: technology
   id: CyberdawnAdvancedLaunchers

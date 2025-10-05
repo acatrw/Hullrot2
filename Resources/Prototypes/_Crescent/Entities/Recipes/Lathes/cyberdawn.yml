@@ -142,6 +142,15 @@
     Gold: 250
 
 - type: latheRecipe
+  id: DoormagCyberdawn
+  result: doorjack
+  completetime: 1.5
+  materials:
+    AdvancedElectronics: 1000
+    Plastic: 250
+    Gold: 250
+
+- type: latheRecipe
   id: DnaScramblerImplanter
   result: DnaScramblerImplanter
   completetime: 1.5
@@ -161,12 +170,38 @@
 
 - type: latheRecipe
   id: EnergyDagger
-  result: EnergyDagger
+  result: EnergyDaggerbox
   completetime: 1.5
   materials:
     AdvancedElectronics: 1000
     Plastic: 250
+    Steel: 500
     WeakLaserLocus: 500
+    plasma: 500
+    HardlightGenerator: 500
+
+
+- type: latheRecipe
+  id: Energysword
+  result: Energysword
+  completetime: 1.5
+  materials:
+    AdvancedElectronics: 1000
+    Plastic: 250
+    Steel: 500
+    plasma: 1000
+    HardlightGenerator: 500
+
+- type: latheRecipe
+  id: DoubleEnergysword
+  result: DoubleEnergysword
+  completetime: 1.5
+  materials:
+    AdvancedElectronics: 1000
+    Plastic: 500
+    Steel: 1000
+    plasma: 2000
+    HardlightGenerator: 1000
 
 - type: latheRecipe
   id: ClothingOuterHardsuitSyndieMedicCyberdawn
@@ -177,6 +212,16 @@
     Silver: 500
     Durathread: 500
     Steel: 800
+
+- type: latheRecipe
+  id: ClothingOuterHardsuitSyndieCyberdawn
+  result: ClothingOuterHardsuitSyndie
+  completetime: 1.5
+  materials:
+    HardsuitElectronics: 500
+    Silver: 500
+    Durathread: 1000
+    Steel: 2000
 
 - type: latheRecipe
   id: ClothingOuterHardsuitCybersunStealthCyberdawn
@@ -249,13 +294,58 @@
   materials:
     Steel: 500
     BasicMechatronics: 500
-    Silver: 250
+    Silver: 300
     Tungsten: 1500
 
 - type: latheRecipe
-  id:  BallisticCycler1Craft
+  id: HardlightGenerator1CDT
+  result: HardlightGenerator1
+  completetime: 2
+  materials:
+    AdvancedElectronics: 250
+    Gold: 300
+    Silver: 300
+    Glass: 500
+
+- type: latheRecipe
+  id: AdvancedMechatronics1CDT
+  result: AdvancedMechatronics1
+  completetime: 2
+  materials:
+    BasicMechatronics: 1000
+    Gold: 1500
+    Steel: 1500
+
+- type: latheRecipe
+  id: AdvancedElectronics1CDT
+  result: AdvancedElectronics1
+  completetime: 2
+  materials:
+    BasicMechatronics: 1000
+    Copper: 1500
+    Silver: 1500
+
+- type: latheRecipe
+  id: LaserLocus1CDT
+  result: LaserLocus1
+  completetime: 2
+  materials:
+    BasicElectronics: 1500
+    Silver: 1500
+
+- type: latheRecipe
+  id: TubeLoader1CDT
+  result: TubeLoader1
+  completetime: 2
+  materials:
+    AdvancedMechatronics: 500
+    Silver: 1000
+    Steel: 1500
+
+- type: latheRecipe
+  id: BallisticCyclerCDT
   result: BallisticCycler1
   completetime: 1.5
   materials:
     BasicMechatronics: 500
-    Steel: 250
+    Steel: 1500
