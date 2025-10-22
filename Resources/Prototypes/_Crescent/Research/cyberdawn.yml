@@ -16,6 +16,8 @@
   - ClothingHeadHatPatriarch
   - ClothingOuterArmorKendoBoguCyberdawn
   - ClothingOuterHardsuitCybersun
+  - ClothingHandsGlovesCombatCybersun
+  - ClothingMaskGasSyndicateCybersun
 
 - type: technology
   id: CyberdawnBasicBallistics
@@ -45,8 +47,8 @@
   - PowerSinkCyberdawn
 
 - type: technology
-  id: CyberdawnDNAScrambler
-  name: research-technology-cyberdawn-dnascram
+  id: CyberdawnBasicImplants
+  name: research-technology-cyberdawn-BasicImplants
   icon:
     sprite: Objects/Specific/Medical/syndi_implanter.rsi
     state: implanter0
@@ -55,6 +57,8 @@
   cost: 3000
   recipeUnlocks:
   - DnaScramblerImplanter
+  - FreedomImplanter
+  - DeathacidifierImplanter
 
 - type: technology
   id: CyberdawnRadioJammer
@@ -69,6 +73,20 @@
   - RadioJammerCyberdawn
 
 #tier 2
+
+- type: technology
+  id: CyberdawnAdvanceImplants
+  name: research-technology-cyberdawn-AdvanceImplants
+  icon:
+    sprite: Objects/Specific/Medical/syndi_implanter.rsi
+    state: implanter0
+  discipline: Cyberdawn
+  tier: 2
+  cost: 7000
+  recipeUnlocks:
+  - MicroBombImplanter
+  - StorageImplanter
+  - EmpImplanter
 
 - type: technology
   id: CyberdawnMuffler
@@ -96,18 +114,6 @@
   - DoormagCyberdawn
 
 - type: technology
-  id: CyberdawnEmpImplanter
-  name: research-technology-cyberdawn-emp
-  icon:
-    sprite: Objects/Specific/Medical/syndi_implanter.rsi
-    state: implanter0
-  discipline: Cyberdawn
-  tier: 2
-  cost: 6000
-  recipeUnlocks:
-  - EmpImplanter
-
-- type: technology
   id: CyberdawnAdvancedBallistics
   name: research-technology-cyberdawn-advancedballistics
   icon:
@@ -121,6 +127,19 @@
   - WeaponLightMachineGunNCSPRPD
   - WeaponRifleMayflower
   - WeaponRifleSVDMarksmanNCSP
+
+- type: technology
+  id: CyberdawnPsybreaker
+  name: research-technology-cyberdawn-psybreaker
+  icon:
+    sprite: DeltaV/Objects/Weapons/Guns/Pistols/psibreaker.rsi
+    state: base
+  discipline: Cyberdawn
+  tier: 2
+  cost: 3000
+  recipeUnlocks:
+  - WeaponPistolPsiBreakerCyberdawn
+  - MagazinePistolSpecialMindbreakerCyberdawn
 
 - type: technology
   id: CDTAdvancedFirearmcomponents
@@ -176,43 +195,47 @@
   - EnergySword
 
 - type: technology
-  id: CyberdawnZhongyao
-  name: research-technology-cyberdawn-zhongyao
+  id: AdvancedSyndicatehardsuits
+  name: research-technology-cyberdawn-AdvancedSyndicatehardsuits
   icon:
     sprite: _Impstation/Clothing/OuterClothing/Hardsuits/syndicate_agent.rsi
     state: icon
   discipline: Cyberdawn
   tier: 2
-  cost: 5000
+  cost: 7500
   recipeUnlocks:
   - ClothingOuterHardsuitSyndieMedicCyberdawn
+  - ClothingOuterHardsuitSyndieCyberdawn
+  - ClothingOuterHardsuitShanlinUnpainted
 
 # tier 3
 
 - type: technology
-  id: CyberdawnEgui
-  name: research-technology-cyberdawn-egui
+  id: ExperimentalSyndicatehardsuits
+  name: research-technology-cyberdawn-ExperimentalSyndicatehardsuits
   icon:
-    sprite: _Goobstation/Clothing/OuterClothing/Hardsuits/cybersunstealth.rsi
+    sprite: _Impstation/Clothing/OuterClothing/Hardsuits/syndicate_elite.rsi
     state: icon
   discipline: Cyberdawn
   tier: 3
-  cost: 10000
+  cost: 1000
   recipeUnlocks:
-  - ClothingOuterHardsuitCybersunStealthCyberdawn
+  - ClothingOuterHardsuitSyndieEliteCyberdawn
+  - ClothingOuterHardsuitSyndieEliteUnpaintedCyberdawn
+  - ClothingOuterHardsuitSyndieJuggernautCyberdawn
+  - ClothingOuterHardsuitSyndieCommanderCyberdawn
 
 - type: technology
-  id: CyberdawnPsybreaker
-  name: research-technology-cyberdawn-psybreaker
+  id: CSADermalstealthimplant
+  name: research-technology-cyberdawn-Dermalstealthcybernetic
   icon:
-    sprite: DeltaV/Objects/Weapons/Guns/Pistols/psibreaker.rsi
-    state: base
+    sprite: _Crescent/Objects/Misc/cybernetics.rsi
+    state: dermalarmor
   discipline: Cyberdawn
   tier: 3
   cost: 10000
   recipeUnlocks:
-  - WeaponPistolPsiBreakerCyberdawn
-  - MagazinePistolSpecialMindbreakerCyberdawn
+  - CSADermalstealthimplant
 
 - type: technology
   id: CyberdawnThermals
@@ -222,7 +245,7 @@
     state: icon
   discipline: Cyberdawn
   tier: 3
-  cost: 8000
+  cost: 10000
   recipeUnlocks:
   - ClothingEyesThermalVisionGogglesCyberdawn
 
@@ -250,3 +273,16 @@
   cost: 10000
   recipeUnlocks:
   - EnergySwordDouble
+
+- type: technology
+  id: CyberdawnEmpImplanter
+  name: research-technology-cyberdawn-ExoticImplants
+  icon:
+    sprite: Objects/Specific/Medical/syndi_implanter.rsi
+    state: implanter0
+  discipline: Cyberdawn
+  tier: 3
+  cost: 10000
+  recipeUnlocks:
+  - MacroBombImplanter
+  - ScramImplanter

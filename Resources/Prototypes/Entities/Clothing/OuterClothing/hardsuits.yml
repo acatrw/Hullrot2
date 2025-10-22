@@ -635,17 +635,17 @@
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
     damageCoefficient: 0.5
-  - type: DegradeableArmor # this hardsuit will probably never be used anyways
-    armorMaxHealth: 750
+  - type: DegradeableArmor
+    armorMaxHealth: 1000
     armorType: Metallic
     armorRepair: SteelPlate
     initialModifiers:
       flatReductions:
-        Blunt: 25
-        Slash: 25
-        Piercing: 50
-        Heat: 25
-        Caustic: 25
+        Blunt: 30
+        Slash: 30
+        Piercing: 65
+        Heat: 30
+        Caustic: 30
         Radiation: 25
   - type: ClothingSpeedModifier
     walkModifier: 0.9
@@ -659,6 +659,8 @@
     - Hardsuit
     - WhitelistChameleon
     - HidesHarpyWings
+  - type: ClothingAddFaction
+    faction: TFSC
 
 # Syndicate Medic Hardsuit
 - type: entity
@@ -697,6 +699,8 @@
     - Hardsuit
     - WhitelistChameleon
     - HidesHarpyWings
+  - type: ClothingAddFaction
+    faction: TFSC
 
 #Syndicate Elite Hardsuit
 - type: entity
@@ -741,25 +745,30 @@
     damageCoefficient: 0.2
   - type: FireProtection
     reduction: 1 # perfect protection like atmos firesuit for pyro tf2 ops
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.6
-        Slash: 0.6
-        Piercing: 0.6
-        Heat: 0.2
-        Radiation: 0.01
-        Caustic: 0.5
+  - type: DegradeableArmor
+    armorMaxHealth: 750
+    armorType: Metallic
+    armorRepair: SteelPlate
+    initialModifiers:
+      flatReductions:
+        Blunt: 30
+        Slash: 30
+        Piercing: 45
+        Heat: 65
+        Caustic: 65
+        Radiation: 65
   - type: Item
     size: Huge
   - type: ClothingSpeedModifier
-    walkModifier: 1.0
-    sprintModifier: 1.0
+    walkModifier: 1.1
+    sprintModifier: 1.25
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitSyndieElite
   - type: StaminaDamageResistance
     coefficient: 0.5 # 50%
+  - type: ClothingAddFaction
+    faction: TFSC
 
 #Syndicate Commander Hardsuit
 - type: entity
@@ -782,18 +791,21 @@
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
     damageCoefficient: 0.5
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.4
-        Slash: 0.4
-        Piercing: 0.3
-        Heat: 0.5
-        Radiation: 0.25
-        Caustic: 0.4
+  - type: DegradeableArmor
+    armorMaxHealth: 1250
+    armorType: Metallic
+    armorRepair: SteelPlate
+    initialModifiers:
+      flatReductions:
+        Blunt: 30
+        Slash: 30
+        Piercing: 70
+        Heat: 30
+        Caustic: 30
+        Radiation: 25
   - type: ClothingSpeedModifier
-    walkModifier: 1.0
-    sprintModifier: 1.0
+    walkModifier: 0.9
+    sprintModifier: 0.9
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitSyndieCommander
@@ -801,6 +813,8 @@
     coefficient: 0.5 # 50%
   - type: Item
     size: Huge
+  - type: ClothingAddFaction
+    faction: TFSC
 
 #Cybersun Juggernaut Hardsuit
 - type: entity
@@ -823,19 +837,18 @@
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
     damageCoefficient: 0.1
-  - type: Armor
-    modifiers:
+  - type: DegradeableArmor
+    armorMaxHealth: 2500
+    armorType: Metallic
+    armorRepair: SteelPlate
+    initialModifiers:
       flatReductions:
-        Blunt: 3
-        Piercing: 3
-        Slash: 3
-      coefficients:
-        Blunt: 0.4
-        Slash: 0.4
-        Piercing: 0.3
-        Heat: 0.4
-        Radiation: 0.75
-        Caustic: 0.6
+        Blunt: 30
+        Slash: 30
+        Piercing: 75
+        Heat: 30
+        Caustic: 30
+        Radiation: 25
   - type: ClothingSpeedModifier
     sprintModifier: 0.7
   - type: HeldSpeedModifier
@@ -854,6 +867,8 @@
     modifier: 0.5
   - type: ClothingModifyStunTime # Goobstation
     modifier: 0.2
+  - type: ClothingAddFaction
+    faction: TFSC
 
 #Wizard Hardsuit
 - type: entity
@@ -888,6 +903,8 @@
     clothingPrototype: ClothingHeadHelmetHardsuitWizard
   - type: StaminaDamageResistance
     coefficient: 0.5 # 50%
+  - type: ClothingAddFaction
+    faction: TFSC
 
 #Ling Space Suit
 - type: entity

@@ -513,6 +513,12 @@
       - WeaponLCartridgeRPGSmall
       - DnaScramblerImplanter
       - EmpImplanter
+      - FreedomImplanter
+      - DeathacidifierImplanter
+      - StorageImplanter
+      - MicroBombImplanter
+      - MacroBombImplanter
+      - ScramImplanter
       - EnergyDagger
       - EnergySword
       - EnergySwordDouble
@@ -524,10 +530,18 @@
       - AdvancedMechatronics1Craft
       - AdvancedElectronics1Craft
       - ClothingOuterHardsuitSyndieMedicCyberdawn
-      - ClothingOuterHardsuitCybersunStealthCyberdawn
+      - ClothingOuterHardsuitSyndieCyberdawn
+      - ClothingOuterHardsuitSyndieUnpaintedCyberdawn
+      - ClothingOuterHardsuitSyndieEliteCyberdawn
+      - ClothingOuterHardsuitSyndieEliteUnpaintedCyberdawn
+      - ClothingOuterHardsuitSyndieJuggernautCyberdawn
+      - ClothingOuterHardsuitSyndieCommanderCyberdawn
+      - CSADermalstealthimplant
       - MagazinePistolSpecialMindbreakerCyberdawn
       - WeaponPistolPsiBreakerCyberdawn
       - ClothingEyesThermalVisionGogglesCyberdawn
+      - ClothingHandsGlovesCombatCybersun
+      - ClothingMaskGasSyndicateCybersun
       - ClothingMaskImperialCombatGasmask
       - ClothingOuterCoatImperialParade
       - ClothingUniformJumpsuitImperialDoctor

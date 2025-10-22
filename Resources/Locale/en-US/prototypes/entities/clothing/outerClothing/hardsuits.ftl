@@ -82,28 +82,28 @@ ent-ClothingOuterHardsuitShanlinUnpainted = CSA-51a - "Shanlin" tacsuit
 ent-ClothingOuterHardsuitSyndieReverseEngineered = CSA-51a - "Shanlin" tacsuit
     .desc = A tactical combat hardsuit produced by the Cybersun-Armaments Corporation, the suit's tags indicate it provides moderate protection against most forms of damage.
         This one has been painted blue. It feels incredibly light.
-ent-ClothingOuterHardsuitSyndieMedic = NCSP mk.IV "Zhongyao" tacsuit
-    .desc = A tactical stealth combat hardsuit produced by the Cyberdawn-Technologies Corporation, the suit's tags indicate it provides moderate protection against most forms of damage.
+ent-ClothingOuterHardsuitSyndieMedic = CSA-51m "Zhongyao" tacsuit
+    .desc = A tactical combat medical hardsuit produced by the Cybersun-Armaments Corporation, the suit's tags indicate it provides moderate protection against most forms of damage.
     Half of the suit is painted blood red, the rest bears sterile titanium plating. It feels incredibly light.
-ent-ClothingOuterHardsuitSyndieElite = CSA-54UA - "Shiwei" tacsuit
+ent-ClothingOuterHardsuitSyndieElite = CSA-54a - "Shiwei" tacsuit
     .desc = An "Up-Armored" tactical combat hardsuit produced by the Cybersun-Armaments Corporation.
     The suit's tags indicate its rated for high exposure to radiation, heat and explosions, along with moderate physical trauma protection.
     It feels incredibly light.
-ent-ClothingOuterHardsuitShiweiUnpainted = CSA-54UA - "Shiwei" tacsuit
+ent-ClothingOuterHardsuitShiweiUnpainted = CSA-54a - "Shiwei" tacsuit
     .desc = An "Up-Armored" tactical combat hardsuit produced by the Cybersun-Armaments Corporation.
     The suit's tags indicate its rated for high exposure to radiation, heat and explosions, along with moderate physical trauma protection.
     It is unpainted bare spaceship alloy. It feels incredibly light.
 ent-ClothingOuterHardsuitSyndieCommander = CSA-54c - "Tianming" tacsuit
     .desc = A "Commander" tactical combat hardsuit produced by the Cybersun-Armaments Corporation. The suit's tags indicate that it protects greatly against all forms of damage.
     This one has been painted blood red. It doesn't seem to have any weight.
-ent-ClothingOuterHardsuitJuggernaut = CSA-80UA - "Guan Yu" tacsuit
+ent-ClothingOuterHardsuitJuggernaut = CSA-80A- "Guan Yu" tacsuit
     .desc = The pride and joy of the Cybersun-Armaments Corporation, named after an ancient Sol' War God. Commonly known throughout the galaxy as a "Juggernaut".
     Matching its bulky appearance, it protects against all forms of damage. It feels VERY heavy.
-ent-ClothingOuterHardsuitJuggernautReverseEngineered = CSA-80UA - "Guan Yu" tacsuit
+ent-ClothingOuterHardsuitJuggernautReverseEngineered = CSA-80A - "Guan Yu" tacsuit
     .desc = The pride and joy of the Cybersun-Armaments Corporation, named after an ancient Sol' War God. Commonly known throughout the galaxy as a "Juggernaut".
         Matching its bulky appearance, it protects against all forms of damage. It feels VERY heavy.
-ent-ClothingOuterHardsuitCybersunStealth = CDT mk.I "Èguǐ" tacsuit
-    .desc = A rare prototype tacsuit produced by the Cyberdawn-Technologies Corporation that features metamaterial plating which warps light around it to produce an "Invisibility cloak" effect.
+ent-ClothingOuterHardsuitCybersunStealth = CSA - 100a "Èguǐ" tacsuit
+    .desc = A rare prototype tacsuit produced by the Cybersun-Armaments Corporation that features metamaterial plating which warps light around it to produce an "Invisibility cloak" effect.
     Unfortunately, it accomplishes this by trading a lot of protections that one would normally expect from a typical tacsuit.
 ent-ClothingOuterHardsuitWizard = WZD-84 - "Mana" tacsuit
     .desc = A bizarre gem-encrusted hardsuit. Famously used by members of the Wizard Federation in their operations.

@@ -308,7 +308,7 @@
   - type: Sprite
     sprite: Mobs/Customization/cyberlimbs/bishop/bishop_main.rsi
     state: "iconpry"
-    
+
 - type: entity
   parent: HullrotCyberneticBase
   id: SkillshardSlot
@@ -334,3 +334,24 @@
       - !type:TraitAddComponent
         components:
           - type: SkillchipImplantHolder
+
+- type: entity
+  parent: HullrotCyberneticBase
+  id: CSADermalstealthimplant
+  name: CSA - 42 "Èguǐ" Dermal stealth cybernetic
+  description: A dermal cybernetic that uses the power of plasma to bend light around the user effectively making the user invisible.
+  components:
+  - type: Dermis
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/cybernetics.rsi
+    layers:
+    - state: dermalarmor
+  - type: Organ
+    slotId: dermis
+    onAdd:
+    - type: Stealth
+      enabledOnDeath: false
+      maxVisibility: 1.2
+    - type: StealthOnMove
+      passiveVisibilityRate: -0.25
+      movementVisibilityRate: 0.1

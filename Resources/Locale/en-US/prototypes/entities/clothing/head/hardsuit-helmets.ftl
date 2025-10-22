@@ -64,16 +64,16 @@ ent-ClothingHeadHelmetHardsuitSyndieReverseEngineered = CSA-51a helmet
 ent-ClothingHeadHelmetHardsuitSyndieMedic = CSA-51m helmet
     .desc = An armored helmet deployed over a Zhongyao tacsuit. features optic integrations for nearly every medical hud on the market.
     Designed to enable the survival of combat medics in the most dangerous of environments.
-ent-ClothingHeadHelmetHardsuitSyndieElite = CSA-54UA helmet
+ent-ClothingHeadHelmetHardsuitSyndieElite = CSA-54a helmet
     .desc = An elite version of the Shanlin tacsuit's helmet, featuring improved armor and fireproofing.
-ent-ClothingHeadHelmetHardsuitShiweiUnpainted = CSA-54UA helmet
+ent-ClothingHeadHelmetHardsuitShiweiUnpainted = CSA-54a helmet
     .desc = An elite version of the Shanlin tacsuit's helmet, featuring improved armor and fireproofing.
     It is unpainted bare spaceship alloy.
 ent-ClothingHeadHelmetHardsuitSyndieCommander = CSA-54c helmet
     .desc = A bulked up version of the Shanlin tacsuit's helmet, purpose-built for commanders of special operation squads. This one has been painted blood-red.
-ent-ClothingHeadHelmetHardsuitCybersun = CSA-80UA helmet
+ent-ClothingHeadHelmetHardsuitCybersun = CSA-80A helmet
     .desc = An incredibly sturdy looking helmet designed for the Guan Yu tacsuit.
-ent-ClothingHeadHelmetHardsuitJuggernautReverseEngineered = CSA-80UA helmet
+ent-ClothingHeadHelmetHardsuitJuggernautReverseEngineered = CSA-80A helmet
     .desc = An incredibly sturdy looking helmet designed for the Guan Yu tacsuit. This one has been painted blue.
 ent-ClothingHeadHelmetHardsuitCybersunStealth = CSA-91x helmet
     .desc = A moderately protective sealed helmet designed for the èguǐ tacsuit. It features "Cloaking" metamaterials.
