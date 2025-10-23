@@ -3,7 +3,7 @@
 #
 - type: vessel
   id: Velator
-  name: NCSP Velator
+  name: CDT Velator
   description: A light Syndicate electronic warfare corvette with an onboard saboteur's armory.
   price: 60000
   category: Medium

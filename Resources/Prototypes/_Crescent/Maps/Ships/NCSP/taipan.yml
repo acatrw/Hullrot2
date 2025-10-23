@@ -3,7 +3,7 @@
 #
 - type: vessel
   id: Taipan
-  name: TFSC Taipan
+  name: CDT Taipan
   description: A multipurpose, armed corvette.
   price: 60000
   category: Medium

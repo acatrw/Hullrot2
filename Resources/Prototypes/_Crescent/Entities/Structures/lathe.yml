@@ -490,7 +490,7 @@
       - RPED
       - WeaponParticleDecelerator
       - HoloprojectorField
-      - ClothingUniformJumpsuitSyndicateSuitCyberdawn
+      - ClothingUniformJumpsuitSyndicateSuitCyberdawn #CDT
       - ClothingUniformJumpsuitSyndicateLabCyberdawn
       - ClothingUniformJumpsuitSyndicateSoldierCyberdawn
       - ClothingOuterArmorCyberdawnPatriarch
@@ -505,6 +505,14 @@
       - MufflerFlatpack
       - RadioJammerCyberdawn
       - EmagCyberdawn
+      - C4Cyberdawn
+      - AgentIDCardCyberdawn
+      - ChameleonProjectorCyberdawn
+      - ClothingBackpackChameleonFillCyberdawn
+      - ClothingMaskGasVoiceChameleonCyberdawn
+      - SyndicateJawsOfLifeCyberdawn
+      - SyndicateBombCyberdawn
+      - StealthBoxCyberdawn
       - WeaponLightMachineGunNCSPRPD
       - WeaponRifleMayflower
       - WeaponRifleSVDMarksmanNCSP
@@ -542,6 +550,7 @@
       - ClothingEyesThermalVisionGogglesCyberdawn
       - ClothingHandsGlovesCombatCybersun
       - ClothingMaskGasSyndicateCybersun
+      - WispLPC
       - ClothingMaskImperialCombatGasmask
       - ClothingOuterCoatImperialParade
       - ClothingUniformJumpsuitImperialDoctor

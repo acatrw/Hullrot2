@@ -838,14 +838,14 @@
   - type: ExplosionResistance
     damageCoefficient: 0.1
   - type: DegradeableArmor
-    armorMaxHealth: 2500
-    armorType: Metallic
-    armorRepair: SteelPlate
+    armorMaxHealth: 3000
+    armorType: Ceramic
+    armorRepair: NTCeramic
     initialModifiers:
       flatReductions:
         Blunt: 30
         Slash: 30
-        Piercing: 75
+        Piercing: 95
         Heat: 30
         Caustic: 30
         Radiation: 25

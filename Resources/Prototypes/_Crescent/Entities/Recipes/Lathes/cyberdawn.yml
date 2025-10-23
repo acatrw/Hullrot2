@@ -191,7 +191,7 @@
   materials:
     Gold: 750
     BallisticCycler: 250
-    NanotrasenMechatronics: 500
+    AdvancedMechatronics: 500
     Steel: 1000
 
 - type: latheRecipe
@@ -249,6 +249,81 @@
     AdvancedElectronics: 1000
     Plastic: 250
     Gold: 250
+
+- type: latheRecipe
+  id: AgentIDCardCyberdawn
+  result: AgentIDCard
+  completetime: 1.5
+  materials:
+    AdvancedElectronics: 1000
+    Plastic: 500
+
+- type: latheRecipe
+  id: ChameleonProjectorCyberdawn
+  result: ChameleonProjector
+  completetime: 1.5
+  materials:
+    AdvancedElectronics: 1000
+    Plastic: 500
+    Gold: 500
+    Plasma: 1000
+
+- type: latheRecipe
+  id: ClothingBackpackChameleonFillCyberdawn
+  result: ClothingBackpackChameleonFill
+  completetime: 1.5
+  materials:
+    AdvancedElectronics: 1000
+    Cloth: 2000
+    Plastic: 500
+
+- type: latheRecipe
+  id: ClothingMaskGasVoiceChameleonCyberdawn
+  result: ClothingMaskGasVoiceChameleon
+  completetime: 1.5
+  materials:
+    AdvancedElectronics: 1000
+    Cloth: 500
+    Plastic: 500
+
+- type: latheRecipe
+  id: SyndicateJawsOfLifeCyberdawn
+  result: SyndicateJawsOfLife
+  completetime: 1.5
+  materials:
+    Steel: 1000
+    Glass: 500
+    Gold: 500
+    Plasma: 600
+    BasicElectronics: 100
+
+- type: latheRecipe
+  id: C4Cyberdawn
+  result: C4
+  completetime: 1.5
+  materials:
+    BasicElectronics: 100
+    Plasma: 100
+    Steel: 100
+
+- type: latheRecipe
+  id: SyndicateBombCyberdawn
+  result: SyndicateBomb
+  completetime: 1.5
+  materials:
+    AdvancedElectronics: 1000
+    Plasma: 3000
+    Steel: 1000
+    Gold: 250
+
+- type: latheRecipe
+  id: StealthBoxCyberdawn
+  result: StealthBox
+  completetime: 1.5
+  materials:
+    AdvancedElectronics: 1000
+    Plastic: 500
+    Gold: 500
 
 #Implants
 
@@ -423,8 +498,8 @@
   result: ClothingOuterHardsuitJuggernaut
   completetime: 1.5
   materials:
+    NanotrasenMechatronics: 1000
     AdvancedElectronics: 1000
-    AdvancedMechatronics: 3000
     HardsuitElectronics: 500
     Silver: 2000
     Durathread: 500
@@ -498,7 +573,16 @@
     Copper: 1500
     Silver: 1500
 
-#Ships When we get them
+#Ships
+
+- type: latheRecipe
+  id: WispLPC
+  result: ShipVoucherWisp
+  completetime: 1
+  materials:
+    StarshipEngineComponents: 2000
+    ShipComponents: 2000
+    ShipHull: 2000
 
 #Cybernetics
 
