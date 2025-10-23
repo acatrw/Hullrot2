@@ -68,7 +68,7 @@
   result: ClothingEyesThermalVisionGoggles
   completetime: 1.5
   materials:
-    AdvancedElectronics: 500
+    AdvancedElectronics: 1000
     Silver: 750
     Steel: 1000
 
