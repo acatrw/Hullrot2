@@ -295,7 +295,7 @@
     Glass: 500
     Gold: 500
     Plasma: 600
-    BasicElectronics: 100
+    AdvancedElectronics: 500
 
 - type: latheRecipe
   id: C4Cyberdawn
@@ -433,8 +433,8 @@
   result: ClothingOuterHardsuitSyndieMedic
   completetime: 1.5
   materials:
-    AdvancedElectronics: 250
-    AdvancedMechatronics: 250
+    AdvancedElectronics: 500
+    AdvancedMechatronics: 500
     HardsuitElectronics: 500
     Silver: 500
     Durathread: 500
@@ -446,8 +446,8 @@
   result: ClothingOuterHardsuitSyndie
   completetime: 1.5
   materials:
-    AdvancedElectronics: 500
-    AdvancedMechatronics: 500
+    AdvancedElectronics: 1000
+    AdvancedMechatronics: 1000
     HardsuitElectronics: 500
     Silver: 1000
     Durathread: 500
@@ -459,8 +459,8 @@
   result: ClothingOuterHardsuitShanlinUnpainted
   completetime: 1.5
   materials:
-    AdvancedElectronics: 500
-    AdvancedMechatronics: 500
+    AdvancedElectronics: 1000
+    AdvancedMechatronics: 1000
     HardsuitElectronics: 500
     Silver: 1000
     Durathread: 500
@@ -472,7 +472,7 @@
   result: ClothingOuterHardsuitSyndieElite
   completetime: 1.5
   materials:
-    AdvancedElectronics: 2000
+    NanotrasenElectronics: 500
     AdvancedMechatronics: 1000
     HardsuitElectronics: 500
     Silver: 2000
@@ -485,7 +485,7 @@
   result: ClothingOuterHardsuitShiweiUnpainted
   completetime: 1.5
   materials:
-    AdvancedElectronics: 2000
+    NanotrasenElectronics: 500
     AdvancedMechatronics: 1000
     HardsuitElectronics: 500
     Silver: 2000
@@ -512,7 +512,7 @@
   completetime: 1.5
   materials:
     AdvancedElectronics: 2000
-    AdvancedMechatronics: 2000
+    NanotrasenMechatronics: 500
     HardsuitElectronics: 500
     Silver: 2000
     Durathread: 500
