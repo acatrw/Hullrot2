@@ -636,14 +636,14 @@
   - type: ExplosionResistance
     damageCoefficient: 0.5
   - type: DegradeableArmor
-    armorMaxHealth: 1000
+    armorMaxHealth: 800
     armorType: Metallic
     armorRepair: SteelPlate
     initialModifiers:
       flatReductions:
         Blunt: 30
         Slash: 30
-        Piercing: 65
+        Piercing: 70
         Heat: 30
         Caustic: 30
         Radiation: 25
@@ -746,7 +746,7 @@
   - type: FireProtection
     reduction: 1 # perfect protection like atmos firesuit for pyro tf2 ops
   - type: DegradeableArmor
-    armorMaxHealth: 750
+    armorMaxHealth: 600
     armorType: Metallic
     armorRepair: SteelPlate
     initialModifiers:
@@ -792,7 +792,7 @@
   - type: ExplosionResistance
     damageCoefficient: 0.5
   - type: DegradeableArmor
-    armorMaxHealth: 1250
+    armorMaxHealth: 1000
     armorType: Metallic
     armorRepair: SteelPlate
     initialModifiers:
