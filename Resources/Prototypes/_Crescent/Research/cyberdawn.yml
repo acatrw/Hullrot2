@@ -306,7 +306,7 @@
   - EnergySwordDouble
 
 - type: technology
-  id: CyberdawnEmpImplanter
+  id: CyberdawnExoticImplants
   name: research-technology-cyberdawn-ExoticImplants
   icon:
     sprite: Objects/Specific/Medical/syndi_implanter.rsi
