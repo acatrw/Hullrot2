@@ -38,7 +38,7 @@
       thresholds:
         - trigger:
             !type:DamageTrigger
-            damage: 200 # Was 600, most players were under the impression these were indestructible. It having an Inorganic damage container did not help.
+            damage: 600 # Every gun does more damage in hull rot
           behaviors:
             - !type:DoActsBehavior
               acts: [ "Destruction" ]
@@ -68,7 +68,7 @@
         task: TurretCompound
       blackboard:
         RotateSpeed: !type:Single
-          1.571 # At most 1 second to react to a target directly behind it, instead of instantaneous tracking
+          3 # At most 1 second to react to a target directly behind it, instead of instantaneous tracking
         SoundTargetInLOS: !type:SoundPathSpecifier
           path: /Audio/_Crescent/Ambience/ping.ogg
     - type: MouseRotator

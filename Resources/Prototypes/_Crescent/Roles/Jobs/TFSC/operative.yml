@@ -23,6 +23,7 @@
   special:
   - !type:AddComponentSpecial
     components:
+      - type: NukeOperative
       - type: ChatRank
         rank: crescent-rank-operative
       - type: HullrotFaction
@@ -41,6 +42,8 @@
   - External
   - Mercenary # Frontier
   - Captain # Frontier
+  - SyndicateAgent
+  - NuclearOperative
 
 - type: startingGear
   id: OperativeGear

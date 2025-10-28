@@ -28,6 +28,7 @@
     components:
       - type: ChatRank
         rank: crescent-rank-patriarch
+      - type: NukeOperative
       - type: HullrotFaction
         faction: CD
       - type: LanguageAdder
@@ -47,6 +48,8 @@
   - External
   - Mercenary # Frontier
   - Captain # Frontier
+  - SyndicateAgent
+  - NuclearOperative
 
 - type: startingGear
   id: IntelligenceOfficerGear

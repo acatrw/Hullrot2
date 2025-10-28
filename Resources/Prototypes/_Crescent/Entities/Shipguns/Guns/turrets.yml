@@ -1722,3 +1722,25 @@
       containers:
       - machine_parts
       - machine_board
+
+- type: entity
+  parent: WeaponEnergyTurretStation
+  id: CS-240APT
+  name: CS - 240 Energy Antipersonnel Turret
+  description: A high-tech autonomous weapons.
+  components:
+  - type: AccessReader
+    access: [["SyndicateRamzi"], ["SyndicateCommand"]]
+  - type: TurretTargetSettings
+    exemptAccessLevels:
+    - SyndicateBasic
+    - SyndicateInterdyne
+    - SyndicateGorlex
+    - SyndicateRamzi
+    - SyndicateCommand
+    - SyndicateSaws
+  - type: Machine
+    board: WeaponEnergyTurretAIMachineCircuitboard
+  - type: DeviceNetwork
+    receiveFrequencyId: TurretControlAI
+    transmitFrequencyId: TurretAI

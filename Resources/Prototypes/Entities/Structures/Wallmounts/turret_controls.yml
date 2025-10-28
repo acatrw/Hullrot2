@@ -216,7 +216,7 @@
 - type: entity
   parent: WeaponEnergyTurretStationControlPanel
   id: WeaponCSAEnergyTurretControlPanel
-  name: CSA - 240 turret control panel
+  name: CS - 240 turret control panel
   description: A wall-mounted interface that allows a local artifical intelligence to adjust the operational parameters of linked sentry turrets.
   components:
   - type: AccessReader
@@ -228,6 +228,9 @@
   - type: DeployableTurretController
     accessGroups:
       - Syndicate
+      - NCWL
+      - DSM
+      - TAP
     accessLevels:
     - SyndicateBasic
     - SyndicateInterdyne
@@ -235,6 +238,28 @@
     - SyndicateRamzi
     - SyndicateCommand
     - SyndicateSaws
+    - NCWLGeneral
+    - NCWLCommand
+    - NCWLKommissar
+    - NCWLAdministrator
+    - NCWLArmory
+    - NCWLJail
+    - Archmaester
+    - EmpireSoldier
+    - EmpireNoble
+    - EmpireAdjutant
+    - EmpireGovernor
+    - Empire
+    - ScribesGuild
+    - Advocatus
+    - Arabet
+    - Thukker
+    - Alseik
+    - AlseikServile
+    - Families
+    - Izdari
+    - Antiquarian
+
   - type: DeviceNetwork
     receiveFrequencyId: TurretAI
     transmitFrequencyId: TurretControlAI

@@ -28,6 +28,16 @@
   id: NCWLFunds
   name: NCWL Funding Account
 
+- type: accessGroup
+  id: NCWL
+  tags:
+  - NCWLGeneral
+  - NCWLCommand
+  - NCWLKommissar
+  - NCWLAdministrator
+  - NCWLArmory
+  - NCWLJail
+
 
 #syndicate#
 
@@ -62,6 +72,16 @@
 - type: accessLevel
   id: SyndicateFunds
   name: PMC Funding Account
+
+- type: accessGroup
+  id: Syndicate
+  tags:
+  - SyndicateBasic
+  - SyndicateInterdyne
+  - SyndicateGorlex
+  - SyndicateRamzi
+  - SyndicateCommand
+  - SyndicateSaws
 
 # empire #
 
@@ -104,6 +124,19 @@
 - type: accessLevel
   id: DSMFunds
   name: Imperial Funding Account
+
+- type: accessGroup
+  id: DSM
+  tags:
+  - Archmaester
+  - EmpireSoldier
+  - EmpireNoble
+  - EmpireAdjutant
+  - EmpireGovernor
+  - Empire
+  - ScribesGuild
+  - Advocatus
+
 
 #srm
 
@@ -220,3 +253,15 @@
 - type: accessLevel
   id: Izdari
   name: id-card-access-level-Izdari
+
+- type: accessGroup
+  id: TAP
+  tags:
+  - Arabet
+  - Thukker
+  - Alseik
+  - AlseikServile
+  - Families
+  - Izdari
+  - Antiquarian
+

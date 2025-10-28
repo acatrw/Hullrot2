@@ -58,8 +58,17 @@ id-card-access-level-authoritat-ranking = 43rd Battlegroup Officer
 id-card-access-level-authoritat-medical = 43rd Battlegroup Medical
 id-card-access-level-authoritat-cargo = 43rd Battlegroup Supply
 
-# misc
+# tap
 
 id-card-access-level-antiquarian = Antiquarian
+id-card-access-level-arabet = arabet
+id-card-access-level-thukker = thukker
+id-card-access-level-Servile = Servile
+id-card-access-level-Families = Families
+id-card-access-level-Izdari = Izdari
+
+# misc
+
+
 id-card-access-level-gliess-admin = Gliessian Dockmaster
 id-card-access-level-gliess-sheriff = Gliessian Sheriff
