@@ -76,7 +76,7 @@ ent-ClothingOuterHardsuitLuxury = HpI-20c - "Minos" hardsuit
 ent-ClothingOuterHardsuitSyndie = CS-51a - "Shanlin" tacsuit
     .desc = A tactical combat hardsuit produced by the Cybersun Corporation, the suit's tags indicate it provides moderate protection against most forms of damage.
     This one has been painted blood red. It feels incredibly light.
-ent-ClothingOuterHardsuitShanlinUnpainted = CSA-51a - "Shanlin" tacsuit
+ent-ClothingOuterHardsuitShanlinUnpainted = CS-51a - "Shanlin" tacsuit
     .desc = A tactical combat hardsuit produced by the Cybersun Corporation, the suit's tags indicate it provides moderate protection against most forms of damage.
     This one is unpainted bare metal. It feels incredibly light.
 ent-ClothingOuterHardsuitSyndieReverseEngineered = CS-51a - "Shanlin" tacsuit
@@ -99,7 +99,7 @@ ent-ClothingOuterHardsuitSyndieCommander = CS-54c - "Tianming" tacsuit
 ent-ClothingOuterHardsuitJuggernaut = CS-80A- "Guan Yu" tacsuit
     .desc = The pride and joy of the Cybersun Corporation, named after an ancient Sol' War God. Commonly known throughout the galaxy as a "Juggernaut".
     Matching its bulky appearance, it protects against all forms of damage. It feels VERY heavy.
-ent-ClothingOuterHardsuitJuggernautReverseEngineered = CSA-80A - "Guan Yu" tacsuit
+ent-ClothingOuterHardsuitJuggernautReverseEngineered = CS-80A - "Guan Yu" tacsuit
     .desc = The pride and joy of the Cybersun Corporation, named after an ancient Sol' War God. Commonly known throughout the galaxy as a "Juggernaut".
         Matching its bulky appearance, it protects against all forms of damage. It feels VERY heavy.
 ent-ClothingOuterHardsuitCybersunStealth = CS - 100a "Èguǐ" tacsuit
