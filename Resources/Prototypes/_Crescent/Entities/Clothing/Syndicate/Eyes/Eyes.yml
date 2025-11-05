@@ -1,0 +1,45 @@
+﻿- type: entity
+  parent: [ClothingEyesBase, ShowSecurityIcons, BallisticGlasses]
+  id: ClothingEyesThermalVisionGogglesCyberdawn
+  name: Advanced thermal goggles
+  description: An advance thermal vision system that can read Syndicate IFF and has diagnostic information.
+  components:
+  - type: Sprite
+    sprite: Clothing/Eyes/Goggles/thermal.rsi
+  - type: Clothing
+    sprite: Clothing/Eyes/Goggles/thermal.rsi
+  - type: ThermalVision
+    isEquipment: true
+    color: "#98EEFB"
+    lightRadius: 20
+    toggleAction: ToggleThermalVision
+  - type: IdentityBlocker
+    coverage: EYES
+  - type: ShowHealthBars
+    damageContainers:
+    - Biological
+    - Inorganic
+    - Silicon
+  - type: ShowSyndicateIcons
+
+- type: entity
+  parent: [ClothingEyesBase, ShowSecurityIcons, BallisticGlasses]
+  id: ClothingEyesNightVisionGogglesCyberdawn
+  name: Advanced vision goggles
+  description: An advance night vision system that can read Syndicate IFF and has diagnostic information.
+  components:
+  - type: Sprite
+    sprite: Clothing/Eyes/Goggles/nightvision.rsi
+  - type: Clothing
+    sprite: Clothing/Eyes/Goggles/nightvision.rsi
+  - type: NightVision
+    isEquipment: true
+  - type: IdentityBlocker
+    coverage: EYES
+  - type: ShowHealthBars
+    damageContainers:
+    - Biological
+    - Inorganic
+    - Silicon
+  - type: ShowSyndicateIcons
+

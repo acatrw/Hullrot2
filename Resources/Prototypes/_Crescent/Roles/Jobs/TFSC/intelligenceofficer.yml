@@ -58,6 +58,7 @@
     jumpsuit: ClothingUniformJumpsuitSyndicateSuitCyberdawn
     shoes: ClothingShoesBootsCombat
     head: ClothingHeadHatPatriarch
+    eyes: ClothingEyesHudSyndicateAgent
     id: IntelligenceOfficerPDA
     back: ClothingBackpackNCSPFilledInfanteer
     gloves: ClothingHandsGlovesFingerless

@@ -53,5 +53,6 @@
     shoes: ClothingShoesBootsCombat
     id: CyberdawnTechPDA
     ears: ClothingHeadsetNCSPCyberdawn
+    eyes: ClothingEyesHudSyndicateAgent
     back: ClothingBackpackNCSPFilledInfanteer
     gloves: ClothingHandsGlovesFingerless

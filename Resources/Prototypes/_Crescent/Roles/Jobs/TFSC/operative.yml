@@ -54,6 +54,7 @@
     id: OperativePDA
     gloves: ClothingHandsGlovesFingerless
     outerClothing: ClothingOuterArmorKendoBogu
+    eyes: ClothingEyesHudSyndicate
     ears: ClothingHeadsetNCSPCyberdawn
     back: ClothingBackpackNCSPFilledInfanteer
     pocket1: WeaponPistolAnsem

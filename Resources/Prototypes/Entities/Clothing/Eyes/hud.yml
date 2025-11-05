@@ -238,8 +238,13 @@
   parent: [ClothingEyesBase, ShowSecurityIcons, BallisticGlasses]
   id: ClothingEyesHudSyndicate
   name: syndicate visor
-  description: The syndicate's professional head-up display, designed for better detection of humanoids and their subsequent elimination.
+  description: An advanced visor that can read Syndicate IFF and can identify targets and their integrity.
   components:
+  - type: ShowHealthBars
+    damageContainers:
+    - Biological
+    - Inorganic
+    - Silicon
   - type: Sprite
     sprite: Clothing/Eyes/Hud/synd.rsi
   - type: Clothing
@@ -250,7 +255,7 @@
   parent: [ClothingEyesBase, ShowSecurityIcons, BallisticGlasses]
   id: ClothingEyesHudSyndicateAgent
   name: syndicate agent visor
-  description: The Syndicate Agent's professional heads-up display, designed for quick diagnosis of their team's status.
+  description: An more advanced version of The Syndicate visor with an inbuilt chemical analysis processor.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/syndagent.rsi
@@ -260,6 +265,9 @@
   - type: ShowHealthBars
     damageContainers:
     - Biological
+    - Inorganic
+    - Silicon
+  - type: SolutionScanner
 
 - type: entity
   parent: [ClothingEyesGlassesSunglasses, ShowSecurityIcons]
@@ -286,7 +294,7 @@
   - type: Sprite
     sprite: Clothing/Eyes/Hud/secpatch.rsi
   - type: Clothing
-    sprite: Clothing/Eyes/Hud/secpatch.rsi 
+    sprite: Clothing/Eyes/Hud/secpatch.rsi
 
 - type: entity
   parent: [ClothingEyesHudSecurity, FlippableEyesBase]

@@ -338,7 +338,7 @@
 - type: entity
   parent: HullrotCyberneticBase
   id: CSADermalstealthimplant
-  name: CSA - 42 "Èguǐ" Dermal stealth cybernetic
+  name: CS - 42 "Èguǐ" Dermal stealth cybernetic
   description: A dermal cybernetic that uses the power of plasma to bend light around the user effectively making the user invisible.
   components:
   - type: Dermis

@@ -68,6 +68,7 @@ research-technology-cyberdawn-AdvancedSyndicatehardsuits = Advanced Syndicate ha
 research-technology-cyberdawn-ExperimentalSyndicatehardsuits = Experimental Syndicate hard suits
 research-technology-cyberdawn-Dermalstealthcybernetic = Dermal stealth cybernetic
 research-technology-cyberdawn-psybreaker = Anti-Psionic Armaments
+research-technology-cyberdawn-CDTnvg = Night Vision Goggles
 research-technology-cyberdawn-thermals = Thermal Vision Goggles
 research-technology-cyberdawn-advancedlaunchers = Advanced Launchers
 research-technology-cyberdawn-CDTAdvancedComponents = Advanced components

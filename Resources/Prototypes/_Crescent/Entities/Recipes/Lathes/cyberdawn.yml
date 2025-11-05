@@ -64,11 +64,38 @@
     Steel: 250
 
 - type: latheRecipe
-  id: ClothingEyesThermalVisionGogglesCyberdawn
-  result: ClothingEyesThermalVisionGoggles
+  id: ClothingEyesHudSyndicate
+  result: ClothingEyesHudSyndicate
   completetime: 1.5
   materials:
-    AdvancedElectronics: 1000
+    BasicElectronics: 500
+    Silver: 750
+    Steel: 1000
+
+- type: latheRecipe
+  id: ClothingEyesHudSyndicateAgent
+  result: ClothingEyesHudSyndicateAgent
+  completetime: 1.5
+  materials:
+    BasicElectronics: 1000
+    Silver: 750
+    Steel: 1000
+
+- type: latheRecipe
+  id: ClothingEyesNightVisionGogglesCyberdawn
+  result: ClothingEyesNightVisionGogglesCyberdawn
+  completetime: 1.5
+  materials:
+    AdvancedElectronics: 500
+    Silver: 750
+    Steel: 1000
+
+- type: latheRecipe
+  id: ClothingEyesThermalVisionGogglesCyberdawn
+  result: ClothingEyesThermalVisionGogglesCyberdawn
+  completetime: 1.5
+  materials:
+    NanotrasenElectronics: 500
     Silver: 750
     Steel: 1000
 
@@ -81,6 +108,15 @@
   materials:
     Steel: 1500
     BallisticCycler: 500 #one of the few actually good SMGs
+
+- type: latheRecipe
+  id: WeaponSubMachineGunCorsair
+  result: WeaponSubMachineGunCorsair
+  completetime: 1.5
+  materials:
+    Steel: 1500
+    BallisticCycler: 500
+
 
 - type: latheRecipe
   id: WeaponRifleAkCyberdawn
@@ -108,6 +144,15 @@
     AdvancedMechatronics: 500
 
 - type: latheRecipe
+  id: WeaponPistolAnsem
+  result: WeaponPistolAnsem
+  completetime: 1.5
+  materials:
+    Steel: 800
+    Plastic: 1000
+    AdvancedMechatronics: 500
+
+- type: latheRecipe
   id: WeaponLightMachineGunNCSPRPD
   result: WeaponLightMachineGunNCSPRPD
   completetime: 1.5
@@ -116,6 +161,26 @@
     Plastic: 1500
     Silver: 1000
     BallisticCycler: 1500
+
+- type: latheRecipe
+  id: WeaponLightMachineGunCompakt
+  result: WeaponLightMachineGunCompakt
+  completetime: 1.5
+  materials:
+    Steel: 1500
+    Plastic: 3000
+    Silver: 1000
+    BallisticCycler: 1000
+
+- type: latheRecipe
+  id: WeaponRifleUnderdog
+  result: WeaponRifleUnderdog
+  completetime: 1.5
+  materials:
+    Steel: 1500
+    Plastic: 1500
+    Silver: 1000
+    AdvancedMechatronics: 1000
 
 - type: latheRecipe
   id: WeaponRifleMayflower
@@ -135,6 +200,15 @@
     Steel: 2000
     BasicMechatronics: 1500
     BallisticCycler: 500
+
+- type: latheRecipe
+  id:  WeaponShotgunTuber
+  result: WeaponShotgunTuber
+  completetime: 1.5
+  materials:
+    Steel: 1500
+    BasicMechatronics: 1000
+    AdvancedMechatronics: 500
 
 - type: latheRecipe
   id:  WeaponShotgunSaiga12NCSP

@@ -518,6 +518,11 @@
       - WeaponRifleMayflower
       - WeaponRifleSVDMarksmanNCSP
       - WeaponShotgunSaiga12NCSP
+      - WeaponSubMachineGunCorsair
+      - WeaponPistolAnsem
+      - WeaponLightMachineGunCompakt
+      - WeaponRifleUnderdog
+      - WeaponShotgunTuber
       - WeaponLauncherRPGNSCP
       - WeaponLCartridgeRPGSmall
       - DnaScramblerImplanter
@@ -548,6 +553,9 @@
       - CSADermalstealthimplant
       - MagazinePistolSpecialMindbreakerCyberdawn
       - WeaponPistolPsiBreakerCyberdawn
+      - ClothingEyesHudSyndicate
+      - ClothingEyesHudSyndicateAgent
+      - ClothingEyesNightVisionGogglesCyberdawn
       - ClothingEyesThermalVisionGogglesCyberdawn
       - ClothingHandsGlovesCombatCybersun
       - ClothingMaskGasSyndicateCybersun
