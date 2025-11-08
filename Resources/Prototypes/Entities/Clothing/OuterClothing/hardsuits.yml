@@ -635,18 +635,15 @@
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
     damageCoefficient: 0.5
-  - type: DegradeableArmor
-    armorMaxHealth: 800
-    armorType: Metallic
-    armorRepair: SteelPlate
-    initialModifiers:
-      flatReductions:
-        Blunt: 30
-        Slash: 30
-        Piercing: 70
-        Heat: 30
-        Caustic: 30
-        Radiation: 25
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.45
+        Slash: 0.45
+        Piercing: 0.45
+        Heat: 0.45
+        Radiation: 0.45
+        Caustic: 0.45
   - type: ClothingSpeedModifier
     walkModifier: 0.9
     sprintModifier: 0.9
@@ -671,18 +668,6 @@
   components:
   - type: ExplosionResistance
     damageCoefficient: 0.3
-  - type: DegradeableArmor
-    armorMaxHealth: 700
-    armorType: Metallic
-    armorRepair: SteelPlate
-    initialModifiers:
-      flatReductions:
-        Blunt: 30
-        Slash: 25
-        Piercing: 65
-        Heat: 15
-        Caustic: 15
-        Radiation: 35
   - type: Sprite
     sprite: _Impstation/Clothing/OuterClothing/Hardsuits/syndicate_agent.rsi
   - type: Clothing
@@ -745,18 +730,15 @@
     damageCoefficient: 0.2
   - type: FireProtection
     reduction: 1 # perfect protection like atmos firesuit for pyro tf2 ops
-  - type: DegradeableArmor
-    armorMaxHealth: 600
-    armorType: Metallic
-    armorRepair: SteelPlate
-    initialModifiers:
-      flatReductions:
-        Blunt: 30
-        Slash: 30
-        Piercing: 45
-        Heat: 65
-        Caustic: 65
-        Radiation: 65
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.6
+        Heat: 0.2
+        Radiation: 0.01
+        Caustic: 0.5
   - type: Item
     size: Huge
   - type: ClothingSpeedModifier
@@ -791,18 +773,15 @@
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
     damageCoefficient: 0.5
-  - type: DegradeableArmor
-    armorMaxHealth: 1000
-    armorType: Metallic
-    armorRepair: SteelPlate
-    initialModifiers:
-      flatReductions:
-        Blunt: 30
-        Slash: 30
-        Piercing: 70
-        Heat: 30
-        Caustic: 30
-        Radiation: 25
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.4
+        Slash: 0.4
+        Piercing: 0.3
+        Heat: 0.5
+        Radiation: 0.25
+        Caustic: 0.4
   - type: ClothingSpeedModifier
     walkModifier: 0.9
     sprintModifier: 0.9
@@ -837,18 +816,19 @@
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
     damageCoefficient: 0.1
-  - type: DegradeableArmor
-    armorMaxHealth: 2750
-    armorType: Ceramic
-    armorRepair: NTCeramic
-    initialModifiers:
+  - type: Armor
+    modifiers:
       flatReductions:
-        Blunt: 30
-        Slash: 30
-        Piercing: 95
-        Heat: 30
-        Caustic: 30
-        Radiation: 25
+        Blunt: 3
+        Piercing: 3
+        Slash: 3
+      coefficients:
+        Blunt: 0.4
+        Slash: 0.4
+        Piercing: 0.3
+        Heat: 0.4
+        Radiation: 0.75
+        Caustic: 0.6
   - type: ClothingSpeedModifier
     sprintModifier: 0.7
   - type: HeldSpeedModifier

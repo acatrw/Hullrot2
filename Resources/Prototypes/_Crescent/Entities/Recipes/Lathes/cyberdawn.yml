@@ -514,7 +514,7 @@
 
 - type: latheRecipe
   id: ClothingOuterHardsuitSyndieMedicCyberdawn
-  result: ClothingOuterHardsuitSyndieMedic
+  result: ClothingOuterHardsuitSyndieMedicHull
   completetime: 1.5
   materials:
     AdvancedElectronics: 500
@@ -527,7 +527,7 @@
 
 - type: latheRecipe
   id: ClothingOuterHardsuitSyndieCyberdawn
-  result: ClothingOuterHardsuitSyndie
+  result: ClothingOuterHardsuitSyndieHull
   completetime: 1.5
   materials:
     AdvancedElectronics: 1000
@@ -541,7 +541,7 @@
 
 - type: latheRecipe
   id: ClothingOuterHardsuitSyndieUnpaintedCyberdawn
-  result: ClothingOuterHardsuitShanlinUnpainted
+  result: ClothingOuterHardsuitShanlinUnpaintedHull
   completetime: 1.5
   materials:
     AdvancedElectronics: 1000
@@ -554,7 +554,7 @@
 
 - type: latheRecipe
   id: ClothingOuterHardsuitSyndieEliteCyberdawn
-  result: ClothingOuterHardsuitSyndieElite
+  result: ClothingOuterHardsuitSyndieEliteHull
   completetime: 1.5
   materials:
     NanotrasenElectronics: 500
@@ -567,7 +567,7 @@
 
 - type: latheRecipe
   id: ClothingOuterHardsuitSyndieEliteUnpaintedCyberdawn
-  result: ClothingOuterHardsuitShiweiUnpainted
+  result: ClothingOuterHardsuitShiweiUnpaintedHull
   completetime: 1.5
   materials:
     NanotrasenElectronics: 500
@@ -580,7 +580,7 @@
 
 - type: latheRecipe
   id: ClothingOuterHardsuitSyndieJuggernautCyberdawn
-  result: ClothingOuterHardsuitJuggernaut
+  result: ClothingOuterHardsuitJuggernautHull
   completetime: 1.5
   materials:
     NanotrasenMechatronics: 1000
@@ -593,7 +593,7 @@
 
 - type: latheRecipe
   id: ClothingOuterHardsuitSyndieCommanderCyberdawn
-  result: ClothingOuterHardsuitSyndieCommander
+  result: ClothingOuterHardsuitSyndieCommanderHull
   completetime: 1.5
   materials:
     AdvancedElectronics: 2000

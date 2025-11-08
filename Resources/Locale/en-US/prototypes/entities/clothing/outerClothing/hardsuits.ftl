@@ -73,30 +73,30 @@ ent-ClothingOuterHardsuitCombatHoS = FPA-99s - "Dayicin Mk.II" tacsuit
 ent-ClothingOuterHardsuitLuxury = HpI-20c - "Minos" hardsuit
     .desc = A modified mining hardsuit from Hephaestus Industries, fashioned after the Logistics Officer's colors.
     The labels indicate that it provides slight protection against most forms of damage. It feels incredibly light.
-ent-ClothingOuterHardsuitSyndie = CS-51a - "Shanlin" tacsuit
+ent-ClothingOuterHardsuitSyndieHull = CS-51a - "Shanlin" tacsuit
     .desc = A tactical combat hardsuit produced by the Cybersun Corporation, the suit's tags indicate it provides moderate protection against most forms of damage.
     This one has been painted blood red. It feels incredibly light.
-ent-ClothingOuterHardsuitShanlinUnpainted = CS-51a - "Shanlin" tacsuit
+ent-ClothingOuterHardsuitShanlinUnpaintedHull = CS-51a - "Shanlin" tacsuit
     .desc = A tactical combat hardsuit produced by the Cybersun Corporation, the suit's tags indicate it provides moderate protection against most forms of damage.
     This one is unpainted bare metal. It feels incredibly light.
 ent-ClothingOuterHardsuitSyndieReverseEngineered = CS-51a - "Shanlin" tacsuit
     .desc = A tactical combat hardsuit produced by the Cybersun Corporation, the suit's tags indicate it provides moderate protection against most forms of damage.
         This one has been painted blue. It feels incredibly light.
-ent-ClothingOuterHardsuitSyndieMedic = CS-51m "Zhongyao" tacsuit
+ent-ClothingOuterHardsuitSyndieMedicHull = CS-51m "Zhongyao" tacsuit
     .desc = A tactical combat medical hardsuit produced by the Cybersun Corporation, the suit's tags indicate it provides moderate protection against most forms of damage.
     Half of the suit is painted blood red, the rest bears sterile titanium plating. It feels incredibly light.
-ent-ClothingOuterHardsuitSyndieElite = CS-54a - "Shiwei" tacsuit
+ent-ClothingOuterHardsuitSyndieEliteHull = CS-54a - "Shiwei" tacsuit
     .desc = An "Up-Armored" tactical combat hardsuit produced by the Cybersun Corporation.
     The suit's tags indicate its rated for high exposure to radiation, heat and explosions, along with moderate physical trauma protection.
     It feels incredibly light.
-ent-ClothingOuterHardsuitShiweiUnpainted = CS-54a - "Shiwei" tacsuit
+ent-ClothingOuterHardsuitShiweiUnpaintedHull = CS-54a - "Shiwei" tacsuit
     .desc = An "Up-Armored" tactical combat hardsuit produced by the Cybersun Corporation.
     The suit's tags indicate its rated for high exposure to radiation, heat and explosions, along with moderate physical trauma protection.
     It is unpainted bare spaceship alloy. It feels incredibly light.
-ent-ClothingOuterHardsuitSyndieCommander = CS-54c - "Tianming" tacsuit
+ent-ClothingOuterHardsuitSyndieCommanderHull = CS-54c - "Tianming" tacsuit
     .desc = A "Commander" tactical combat hardsuit produced by the Cybersun Corporation. The suit's tags indicate that it protects greatly against all forms of damage.
     This one has been painted blood red. It doesn't seem to have any weight.
-ent-ClothingOuterHardsuitJuggernaut = CS-80A- "Guan Yu" tacsuit
+ent-ClothingOuterHardsuitJuggernautHull = CS-80A- "Guan Yu" tacsuit
     .desc = The pride and joy of the Cybersun Corporation, named after an ancient Sol' War God. Commonly known throughout the galaxy as a "Juggernaut".
     Matching its bulky appearance, it protects against all forms of damage. It feels VERY heavy.
 ent-ClothingOuterHardsuitJuggernautReverseEngineered = CS-80A - "Guan Yu" tacsuit
