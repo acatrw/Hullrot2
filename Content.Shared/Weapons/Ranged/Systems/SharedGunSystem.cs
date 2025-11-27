@@ -976,6 +976,11 @@ public abstract partial class SharedGunSystem : EntitySystem
 
         var projectile = EnsureComp<ProjectileComponent>(uid);
         projectile.Weapon = gunUid;
+        //hullrot addition: damagemodifier working again
+        if (TryComp<GunComponent>(gunUid, out var gunComponent))
+            projectile.Damage = projectile.Damage * gunComponent.DamageModifier;
+
+
         var shooter = user ?? gunUid;
         if (shooter != null)
             Projectiles.SetShooter(uid, projectile, shooter.Value);
@@ -990,7 +995,7 @@ public abstract partial class SharedGunSystem : EntitySystem
     /// </summary>
     public virtual void UpdateAmmoCount(EntityUid uid, bool prediction = true, int artificialIncrease = 0) {}
 
-    protected void SetCartridgeSpent(EntityUid uid, CartridgeAmmoComponent cartridge, bool spent)
+    public void SetCartridgeSpent(EntityUid uid, CartridgeAmmoComponent cartridge, bool spent)
     {
         if (cartridge.Spent != spent)
             DirtyField(uid, cartridge, nameof(CartridgeAmmoComponent.Spent));
@@ -1002,7 +1007,7 @@ public abstract partial class SharedGunSystem : EntitySystem
     /// <summary>
     /// Drops a single cartridge / shell
     /// </summary>
-    protected void EjectCartridge(
+    public void EjectCartridge(
         EntityUid entity,
         Angle? angle = null,
         bool playSound = true,

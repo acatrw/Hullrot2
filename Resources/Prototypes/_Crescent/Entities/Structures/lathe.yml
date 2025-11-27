@@ -13,9 +13,9 @@
       shader: unshaded
       map: ["enum.PowerDeviceVisualLayers.Powered"]
   - type: MaterialStorage
-    dropOnDeconstruct: false #should drop ores instead of ingots/sheets
+    dropOnDeconstruct: true #should drop ores instead of ingots/sheets
     ignoreColor: true
-    canEjectStoredMaterials: false
+    canEjectStoredMaterials: true
     whitelist:
       tags:
       - RawMaterial
@@ -252,6 +252,15 @@
     idleState: fab-idle
     runningState: fab-active
     staticRecipes:
+      - CombatKnife
+      - ExplosivePayload
+      - FlashPayload
+      - ChemicalPayload
+      - VoiceTrigger
+      - SignalTrigger
+      - TimerTrigger
+      - EMPGrenadeElectronics
+      - GrenadeDSMG4Twistcap
       - DrumMagazineShotgunSlug
       - DrumMagazineShotgunEmpty
       - DrumMagazineShotgunBuck
@@ -263,7 +272,7 @@
       - MagazineBoxAntiMateriel
       - MagazineBoxHeavyRifle
       - MagazineBoxRifle
-      - MagazineLightRifleBox
+      - MagazineBoxLightRifle
       - MagazineBoxCaselessRifle
       - MagazineBoxCaselessRifleBig
       - BoxShotgunFlash4g
@@ -601,6 +610,7 @@
       - CovetorLPC
       - IbisLPC
       - TorturerLPC
+      - MagnateLPC
       - SunesisLPC
       - ClothingBeltSheathDSMRapier
       - ClothingBeltSheathDSMSabre
@@ -617,6 +627,7 @@
       - WeaponMechCombatPlasmaCannon
       - WeaponLightMachineGunDSMDominion
       - WeaponShotgunReno
+      - WeaponSniperDSMLegax
       - WeaponRifleDSMLegionnaire
       - WeaponSubMachineGunC20rImperial
       - WeaponPistolNeoVolker
@@ -630,6 +641,8 @@
       - SuzerainLPC
       - NemesisLPC
       - JanissaryLPC
+      - VorunaLPC
+      - PerigaleLPC
       - ClothingHeadHelmetNCWLEVA
       - ClothingOuterNCWLEVA
       - ClothingHeadHatNCWLCapsoft
@@ -665,6 +678,7 @@
       - WeaponSubMachineGunBloodhound
       - WeaponRifleNCWLBatanya
       - WeaponShotgunToz123
+      - WeaponSniperNCWLNovomosin
       - WeaponShotgunProletar
       - WeaponPistolT91
       - WeaponRevolverPython
@@ -749,7 +763,10 @@
       - SHIShiverBlade
       - ClothingOuterHardsuitSHIJuggernaut
       - ClothingOuterHardsuitSHISpeedsuit
+      - FujinLPC
       - MetempsychoticMachineCircuitboard
+      - HardlinerFlatpack
+      - PowerCageHardliner
 
   - type: Machine
     board: MicroforgeCircuitboard
@@ -961,4 +978,3 @@
   - type: Anchorable
     flags:
     - Anchorable
-

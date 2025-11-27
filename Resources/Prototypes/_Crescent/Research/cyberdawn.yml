@@ -282,6 +282,30 @@
   recipeUnlocks:
   - ClothingEyesNightVisionGogglesCyberdawn
 
+- type: technology
+  id: CDTSaboteurcyborgs
+  name: research-technology-cyberdawn-CDTSaboteurcyborgs
+  icon:
+    sprite: Mobs/Silicon/chassis.rsi
+    state: synd_engi
+  discipline: Cyberdawn
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+  - ReinforcementFlatpackSyndicateCyborgSaboteur
+
+- type: technology
+  id: CDTMedicalcyborgs
+  name: research-technology-cyberdawn-CDTMedicalcyborgs
+  icon:
+    sprite: Mobs/Silicon/chassis.rsi
+    state: synd_medical
+  discipline: Cyberdawn
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+  - ReinforcementFlatpackSyndicateCyborgMedical
+
 # tier 3
 
 - type: technology
