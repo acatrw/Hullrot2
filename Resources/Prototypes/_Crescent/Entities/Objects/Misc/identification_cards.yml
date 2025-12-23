@@ -342,7 +342,11 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idseniorresearcher
+=======
+    - state: senior
+>>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
   - type: PresetIdCard
     job: FreeholderDSM
 
@@ -357,7 +361,11 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idseniorresearcher
+=======
+    - state: senior
+>>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
   - type: PresetIdCard
     job: TemplarDSM
 
@@ -372,7 +380,11 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idseniorresearcher
+=======
+    - state: senior
+>>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
   - type: PresetIdCard
     job: AdvocatusDSM
 
@@ -387,7 +399,11 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idseniorresearcher
+=======
+    - state: senior
+>>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
   - type: PresetIdCard
     job: ArchmaesterDSM
 
@@ -402,7 +418,11 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idseniorresearcher
+=======
+    - state: senior
+>>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
   - type: PresetIdCard
     job: SurgeonDSM
 
@@ -417,7 +437,11 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idseniorresearcher
+=======
+    - state: senior
+>>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
   - type: PresetIdCard
     job: WealthDSM
 
@@ -432,7 +456,11 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idseniorresearcher
+=======
+    - state: senior
+>>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
   - type: PresetIdCard
     job: ForemanDSM
 
@@ -447,7 +475,11 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idseniorresearcher
+=======
+    - state: senior
+>>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
   - type: PresetIdCard
     job: ScribeDSM
 
@@ -462,7 +494,11 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idseniorresearcher
+=======
+    - state: senior
+>>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
   - type: PresetIdCard
     job: LevymanDSM
 
@@ -477,7 +513,11 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idseniorresearcher
+=======
+    - state: senior
+>>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
   - type: PresetIdCard
     job: KnightDSM
 
@@ -492,7 +532,11 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idseniorresearcher
+=======
+    - state: senior
+>>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
   - type: PresetIdCard
     job: RitterDSM
 
@@ -507,7 +551,11 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idseniorresearcher
+=======
+    - state: senior
+>>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
   - type: PresetIdCard
     job: LaborDSM
 
@@ -522,7 +570,11 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idseniorresearcher
+=======
+    - state: senior
+>>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
   - type: PresetIdCard
     job: CourtierDSM
 
@@ -537,7 +589,11 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idseniorresearcher
+=======
+    - state: senior
+>>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
   - type: PresetIdCard
     job: AdjutantDSM
 
@@ -552,7 +608,11 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idseniorresearcher
+=======
+    - state: senior
+>>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
   - type: PresetIdCard
     job: GovernorDSM
 
@@ -566,7 +626,11 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idbotanist
+=======
+    - state: botanist
+>>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
   - type: PresetIdCard
     job: TenderSRM
 
@@ -578,7 +642,11 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idbotanist
+=======
+    - state: botanist
+>>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
   - type: PresetIdCard
     job: AcolyteSRM
 
@@ -590,7 +658,11 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idbotanist
+=======
+    - state: botanist
+>>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
   - type: PresetIdCard
     job: HunterSRM
 
@@ -602,7 +674,11 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idbotanist
+=======
+    - state: botanist
+>>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
   - type: PresetIdCard
     job: OverseerSRM
 
@@ -614,7 +690,11 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idbotanist
+=======
+    - state: botanist
+>>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
   - type: PresetIdCard
     job: MontagneSRM
 
@@ -632,7 +712,11 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idquartermaster
+=======
+    - state: departmenthead
+>>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
   - type: PresetIdCard
     job: ExecutiveSHI
 
@@ -647,7 +731,11 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idquartermaster
+=======
+    - state: departmenthead
+>>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
   - type: PresetIdCard
     job: BoardSHI
 
@@ -662,7 +750,11 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idquartermaster
+=======
+    - state: departmenthead
+>>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
   - type: PresetIdCard
     job: CorpsecSHI
 
@@ -677,7 +769,11 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idquartermaster
+=======
+    - state: departmenthead
+>>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
   - type: PresetIdCard
     job: HighsecSHI
 
@@ -692,7 +788,11 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idquartermaster
+=======
+    - state: departmenthead
+>>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
   - type: PresetIdCard
     job: EmployeeSHI
 
@@ -707,7 +807,11 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idquartermaster
+=======
+    - state: departmenthead
+>>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
   - type: PresetIdCard
     job: MedtechSHI
 
@@ -724,7 +828,11 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idseniorofficer
+=======
+    - state: senior
+>>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
   - type: PresetIdCard
     job: OrdnancemanCMM
 
@@ -739,7 +847,11 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idseniorofficer
+=======
+    - state: senior
+>>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
   - type: PresetIdCard
     job: MachinistCMM
 
@@ -754,7 +866,11 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idseniorofficer
+=======
+    - state: senior
+>>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
   - type: PresetIdCard
     job: PhysicianCMM
 
@@ -769,7 +885,11 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idseniorofficer
+=======
+    - state: senior
+>>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
   - type: PresetIdCard
     job: MinutemanCMM
 
@@ -784,7 +904,11 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idseniorofficer
+=======
+    - state: senior
+>>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
   - type: PresetIdCard
     job: WatchmasterCMM
 
@@ -799,7 +923,11 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idseniorofficer
+=======
+    - state: senior
+>>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
   - type: PresetIdCard
     job: DeputyMarshalCMM
 
@@ -814,7 +942,11 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idseniorofficer
+=======
+    - state: senior
+>>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
   - type: PresetIdCard
     job: MarshalCMM
 
