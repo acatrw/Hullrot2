@@ -11,7 +11,6 @@
   - type: Sprite
     layers:
     - state: default
-    - state: idcentcom
   - type: PresetIdCard
     job: WorkerNCWL
 
@@ -26,7 +25,6 @@
   - type: Sprite
     layers:
     - state: default
-    - state: idcentcom
   - type: PresetIdCard
     job: CommandantNCWL
 
@@ -41,7 +39,6 @@
   - type: Sprite
     layers:
     - state: default
-    - state: idcentcom
   - type: PresetIdCard
     job: KommissarNCWL
 
@@ -56,7 +53,6 @@
   - type: Sprite
     layers:
     - state: default
-    - state: idcentcom
   - type: PresetIdCard
     job: MVDOfficerNCWL
 
@@ -71,7 +67,6 @@
   - type: Sprite
     layers:
     - state: default
-    - state: idcentcom
   - type: PresetIdCard
     job: MVDGruntNCWL
 
@@ -86,7 +81,6 @@
   - type: Sprite
     layers:
     - state: default
-    - state: idcentcom
   - type: PresetIdCard
     job: FleetkapitanNCWL
 
@@ -101,7 +95,6 @@
   - type: Sprite
     layers:
     - state: default
-    - state: idcentcom
   - type: PresetIdCard
     job: PartisanNCWL
 
@@ -116,7 +109,6 @@
   - type: Sprite
     layers:
     - state: default
-    - state: idcentcom
   - type: PresetIdCard
     job: DirectorNCWL
 
@@ -131,7 +123,6 @@
   - type: Sprite
     layers:
     - state: default
-    - state: idcentcom
   - type: PresetIdCard
     job: DoctorNCWL
 
@@ -146,7 +137,6 @@
   - type: Sprite
     layers:
     - state: default
-    - state: idcentcom
   - type: PresetIdCard
     job: WorkerOverbossNCWL
 
@@ -161,7 +151,6 @@
   - type: Sprite
     layers:
     - state: default
-    - state: idcentcom
   - type: PresetIdCard
     job: DockhandNCWL
 
@@ -176,7 +165,6 @@
   - type: Sprite
     layers:
     - state: default
-    - state: idcentcom
   - type: PresetIdCard
     job: IndustryTaskmasterNCWL
 
@@ -191,7 +179,6 @@
   - type: Sprite
     layers:
     - state: default
-    - state: idcentcom
   - type: PresetIdCard
     job: ArtificerNCWL
 
@@ -204,8 +191,12 @@
   components:
   - type: Sprite
     layers:
+<<<<<<< HEAD
     - state: syndie
     - state: idzookeeper
+=======
+    - state: syndicate
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: RingleaderNCSP
 
@@ -216,8 +207,12 @@
   components:
   - type: Sprite
     layers:
+<<<<<<< HEAD
     - state: syndie
     - state: idzookeeper
+=======
+    - state: syndicate
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: CyberdawnTechNCSP
 
@@ -228,8 +223,12 @@
   components:
   - type: Sprite
     layers:
+<<<<<<< HEAD
     - state: syndie
     - state: idzookeeper
+=======
+    - state: syndicate
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: LieutenantNCSP
 
@@ -240,8 +239,12 @@
   components:
   - type: Sprite
     layers:
+<<<<<<< HEAD
     - state: syndie
     - state: idzookeeper
+=======
+    - state: syndicate
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: InfanteerNCSP
 
@@ -252,8 +255,12 @@
   components:
   - type: Sprite
     layers:
+<<<<<<< HEAD
     - state: syndie
     - state: idzookeeper
+=======
+    - state: syndicate
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: CoordinatorNCSP
 
@@ -264,8 +271,12 @@
   components:
   - type: Sprite
     layers:
+<<<<<<< HEAD
     - state: syndie
     - state: idzookeeper
+=======
+    - state: syndicate
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: RipperdocNCSP
 
@@ -276,8 +287,12 @@
   components:
   - type: Sprite
     layers:
+<<<<<<< HEAD
     - state: syndie
     - state: idzookeeper
+=======
+    - state: syndicate
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: TraumasecNCSP
 
@@ -288,8 +303,12 @@
   components:
   - type: Sprite
     layers:
+<<<<<<< HEAD
     - state: syndie
     - state: idzookeeper
+=======
+    - state: syndicate
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: OperativeNCSP
 
@@ -300,8 +319,12 @@
   components:
   - type: Sprite
     layers:
+<<<<<<< HEAD
     - state: syndie
     - state: idzookeeper
+=======
+    - state: syndicate
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: IntelligenceOfficerNCSP
 
@@ -312,8 +335,12 @@
   components:
   - type: Sprite
     layers:
+<<<<<<< HEAD
     - state: syndie
     - state: idzookeeper
+=======
+    - state: syndicate
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: ForemanNCSP
 
@@ -324,8 +351,12 @@
   components:
   - type: Sprite
     layers:
+<<<<<<< HEAD
     - state: syndie
     - state: idzookeeper
+=======
+    - state: syndicate
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: ShipbreakerNCSP
 
@@ -345,6 +376,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorresearcher
 =======
     - state: senior
@@ -355,6 +387,8 @@
 =======
     - state: idseniorresearcher
 >>>>>>> parent of 7cf5eb7feb (Fixes-1)
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: FreeholderDSM
 
@@ -372,6 +406,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorresearcher
 =======
     - state: senior
@@ -382,6 +417,8 @@
 =======
     - state: idseniorresearcher
 >>>>>>> parent of 7cf5eb7feb (Fixes-1)
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: TemplarDSM
 
@@ -399,6 +436,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorresearcher
 =======
     - state: senior
@@ -409,6 +447,8 @@
 =======
     - state: idseniorresearcher
 >>>>>>> parent of 7cf5eb7feb (Fixes-1)
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: AdvocatusDSM
 
@@ -426,6 +466,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorresearcher
 =======
     - state: senior
@@ -436,6 +477,8 @@
 =======
     - state: idseniorresearcher
 >>>>>>> parent of 7cf5eb7feb (Fixes-1)
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: ArchmaesterDSM
 
@@ -453,6 +496,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorresearcher
 =======
     - state: senior
@@ -463,6 +507,8 @@
 =======
     - state: idseniorresearcher
 >>>>>>> parent of 7cf5eb7feb (Fixes-1)
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: SurgeonDSM
 
@@ -480,6 +526,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorresearcher
 =======
     - state: senior
@@ -490,6 +537,8 @@
 =======
     - state: idseniorresearcher
 >>>>>>> parent of 7cf5eb7feb (Fixes-1)
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: WealthDSM
 
@@ -507,6 +556,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorresearcher
 =======
     - state: senior
@@ -517,6 +567,8 @@
 =======
     - state: idseniorresearcher
 >>>>>>> parent of 7cf5eb7feb (Fixes-1)
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: ForemanDSM
 
@@ -534,6 +586,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorresearcher
 =======
     - state: senior
@@ -544,6 +597,8 @@
 =======
     - state: idseniorresearcher
 >>>>>>> parent of 7cf5eb7feb (Fixes-1)
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: ScribeDSM
 
@@ -561,6 +616,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorresearcher
 =======
     - state: senior
@@ -571,6 +627,8 @@
 =======
     - state: idseniorresearcher
 >>>>>>> parent of 7cf5eb7feb (Fixes-1)
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: LevymanDSM
 
@@ -588,6 +646,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorresearcher
 =======
     - state: senior
@@ -598,6 +657,8 @@
 =======
     - state: idseniorresearcher
 >>>>>>> parent of 7cf5eb7feb (Fixes-1)
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: KnightDSM
 
@@ -615,6 +676,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorresearcher
 =======
     - state: senior
@@ -625,6 +687,8 @@
 =======
     - state: idseniorresearcher
 >>>>>>> parent of 7cf5eb7feb (Fixes-1)
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: RitterDSM
 
@@ -642,6 +706,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorresearcher
 =======
     - state: senior
@@ -652,6 +717,8 @@
 =======
     - state: idseniorresearcher
 >>>>>>> parent of 7cf5eb7feb (Fixes-1)
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: LaborDSM
 
@@ -669,6 +736,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorresearcher
 =======
     - state: senior
@@ -679,6 +747,8 @@
 =======
     - state: idseniorresearcher
 >>>>>>> parent of 7cf5eb7feb (Fixes-1)
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: CourtierDSM
 
@@ -696,6 +766,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorresearcher
 =======
     - state: senior
@@ -706,6 +777,8 @@
 =======
     - state: idseniorresearcher
 >>>>>>> parent of 7cf5eb7feb (Fixes-1)
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: AdjutantDSM
 
@@ -723,6 +796,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorresearcher
 =======
     - state: senior
@@ -733,6 +807,8 @@
 =======
     - state: idseniorresearcher
 >>>>>>> parent of 7cf5eb7feb (Fixes-1)
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: GovernorDSM
 
@@ -749,6 +825,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idbotanist
 =======
     - state: botanist
@@ -759,6 +836,8 @@
 =======
     - state: idbotanist
 >>>>>>> parent of 7cf5eb7feb (Fixes-1)
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: TenderSRM
 
@@ -773,6 +852,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idbotanist
 =======
     - state: botanist
@@ -783,6 +863,8 @@
 =======
     - state: idbotanist
 >>>>>>> parent of 7cf5eb7feb (Fixes-1)
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: AcolyteSRM
 
@@ -797,6 +879,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idbotanist
 =======
     - state: botanist
@@ -807,6 +890,8 @@
 =======
     - state: idbotanist
 >>>>>>> parent of 7cf5eb7feb (Fixes-1)
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: HunterSRM
 
@@ -821,6 +906,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idbotanist
 =======
     - state: botanist
@@ -831,6 +917,8 @@
 =======
     - state: idbotanist
 >>>>>>> parent of 7cf5eb7feb (Fixes-1)
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: OverseerSRM
 
@@ -845,6 +933,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idbotanist
 =======
     - state: botanist
@@ -855,6 +944,8 @@
 =======
     - state: idbotanist
 >>>>>>> parent of 7cf5eb7feb (Fixes-1)
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: MontagneSRM
 
@@ -875,6 +966,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idquartermaster
 =======
     - state: departmenthead
@@ -885,6 +977,8 @@
 =======
     - state: idquartermaster
 >>>>>>> parent of 7cf5eb7feb (Fixes-1)
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: ExecutiveSHI
 
@@ -902,6 +996,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idquartermaster
 =======
     - state: departmenthead
@@ -912,6 +1007,8 @@
 =======
     - state: idquartermaster
 >>>>>>> parent of 7cf5eb7feb (Fixes-1)
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: BoardSHI
 
@@ -929,6 +1026,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idquartermaster
 =======
     - state: departmenthead
@@ -939,6 +1037,8 @@
 =======
     - state: idquartermaster
 >>>>>>> parent of 7cf5eb7feb (Fixes-1)
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: CorpsecSHI
 
@@ -956,6 +1056,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idquartermaster
 =======
     - state: departmenthead
@@ -966,6 +1067,8 @@
 =======
     - state: idquartermaster
 >>>>>>> parent of 7cf5eb7feb (Fixes-1)
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: HighsecSHI
 
@@ -983,6 +1086,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idquartermaster
 =======
     - state: departmenthead
@@ -993,6 +1097,8 @@
 =======
     - state: idquartermaster
 >>>>>>> parent of 7cf5eb7feb (Fixes-1)
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: EmployeeSHI
 
@@ -1010,6 +1116,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idquartermaster
 =======
     - state: departmenthead
@@ -1020,6 +1127,8 @@
 =======
     - state: idquartermaster
 >>>>>>> parent of 7cf5eb7feb (Fixes-1)
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: MedtechSHI
 
@@ -1039,6 +1148,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorofficer
 =======
     - state: senior
@@ -1049,6 +1159,8 @@
 =======
     - state: idseniorofficer
 >>>>>>> parent of 7cf5eb7feb (Fixes-1)
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: OrdnancemanCMM
 
@@ -1066,6 +1178,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorofficer
 =======
     - state: senior
@@ -1076,6 +1189,8 @@
 =======
     - state: idseniorofficer
 >>>>>>> parent of 7cf5eb7feb (Fixes-1)
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: MachinistCMM
 
@@ -1093,6 +1208,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorofficer
 =======
     - state: senior
@@ -1103,6 +1219,8 @@
 =======
     - state: idseniorofficer
 >>>>>>> parent of 7cf5eb7feb (Fixes-1)
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: PhysicianCMM
 
@@ -1120,6 +1238,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorofficer
 =======
     - state: senior
@@ -1130,6 +1249,8 @@
 =======
     - state: idseniorofficer
 >>>>>>> parent of 7cf5eb7feb (Fixes-1)
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: MinutemanCMM
 
@@ -1147,6 +1268,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorofficer
 =======
     - state: senior
@@ -1157,6 +1279,8 @@
 =======
     - state: idseniorofficer
 >>>>>>> parent of 7cf5eb7feb (Fixes-1)
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: WatchmasterCMM
 
@@ -1174,6 +1298,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorofficer
 =======
     - state: senior
@@ -1184,6 +1309,8 @@
 =======
     - state: idseniorofficer
 >>>>>>> parent of 7cf5eb7feb (Fixes-1)
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: DeputyMarshalCMM
 
@@ -1201,6 +1328,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorofficer
 =======
     - state: senior
@@ -1211,6 +1339,8 @@
 =======
     - state: idseniorofficer
 >>>>>>> parent of 7cf5eb7feb (Fixes-1)
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: MarshalCMM
 
@@ -1224,7 +1354,10 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idquartermaster
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: Antiquarian
 
@@ -1269,7 +1402,10 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idseniorresearcher
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
 
 #families
 
@@ -1281,7 +1417,10 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idquartermaster
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: ProphetTAP
 
@@ -1293,7 +1432,10 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idquartermaster
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: AcolyteTAP
 
@@ -1305,7 +1447,10 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idquartermaster
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: TinkererTAP
 
@@ -1317,7 +1462,10 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idquartermaster
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: TechminerTAP
 
@@ -1329,7 +1477,10 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idquartermaster
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: HangarTechTAP
 
@@ -1341,7 +1492,10 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idquartermaster
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: BeltrunnerTAP
 
@@ -1353,7 +1507,10 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idquartermaster
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: DraugrTAP
 
@@ -1365,7 +1522,10 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idquartermaster
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: ServileTAP
 
@@ -1379,7 +1539,10 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idquartermaster
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: KommandantATH
 
@@ -1391,7 +1554,10 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idquartermaster
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: LeutnantATH
 
@@ -1403,7 +1569,10 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idquartermaster
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: SoldatATH
 
@@ -1415,7 +1584,10 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idquartermaster
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: KanoneerATH
 
@@ -1427,7 +1599,10 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idquartermaster
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: SanitatATH
 
@@ -1439,7 +1614,10 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idquartermaster
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: StewardATH
 
@@ -1451,7 +1629,10 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idquartermaster
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: OberartzATH
 
@@ -1463,7 +1644,10 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idquartermaster
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: LogistatATH
 
@@ -1475,7 +1659,10 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idquartermaster
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: HandelsATH
 
@@ -1487,7 +1674,10 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idquartermaster
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: ForscherATH
 
@@ -1499,7 +1689,10 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idquartermaster
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: ChirurgeonATH
 
@@ -1511,7 +1704,10 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idquartermaster
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: VorarbeiterATH
 
@@ -1523,7 +1719,10 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idquartermaster
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: ArbeiterATH
 
@@ -1537,7 +1736,10 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idquartermaster
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: APRTKanoneerATH
 
@@ -1549,7 +1751,10 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idquartermaster
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: APRTSanitatATH
 
@@ -1561,7 +1766,10 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idquartermaster
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: APRTSoldatATH
 
@@ -1579,7 +1787,10 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idquartermaster
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: GliessianSheriff
 
@@ -1594,7 +1805,10 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idquartermaster
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: GliessianDeputy
 
@@ -1610,7 +1824,10 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idquartermaster
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: GliessianDockmaster
 
@@ -1625,7 +1842,10 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idpassenger
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: GliessianDockhand
 
