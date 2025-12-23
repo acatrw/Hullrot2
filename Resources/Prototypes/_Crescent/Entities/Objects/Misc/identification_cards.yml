@@ -1860,7 +1860,10 @@
   - type: Sprite
     layers:
     - state: default
+<<<<<<< HEAD
     - state: idpassenger
+=======
+>>>>>>> parent of 12c5cb3326 (fixes-2 astually)
   - type: PresetIdCard
     job: Spacer
 
