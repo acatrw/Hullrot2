@@ -344,6 +344,7 @@
     - state: default
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorresearcher
 =======
     - state: senior
@@ -351,6 +352,9 @@
 =======
     - state: senior
 >>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
+=======
+    - state: idseniorresearcher
+>>>>>>> parent of 7cf5eb7feb (Fixes-1)
   - type: PresetIdCard
     job: FreeholderDSM
 
@@ -367,6 +371,7 @@
     - state: default
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorresearcher
 =======
     - state: senior
@@ -374,6 +379,9 @@
 =======
     - state: senior
 >>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
+=======
+    - state: idseniorresearcher
+>>>>>>> parent of 7cf5eb7feb (Fixes-1)
   - type: PresetIdCard
     job: TemplarDSM
 
@@ -390,6 +398,7 @@
     - state: default
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorresearcher
 =======
     - state: senior
@@ -397,6 +406,9 @@
 =======
     - state: senior
 >>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
+=======
+    - state: idseniorresearcher
+>>>>>>> parent of 7cf5eb7feb (Fixes-1)
   - type: PresetIdCard
     job: AdvocatusDSM
 
@@ -413,6 +425,7 @@
     - state: default
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorresearcher
 =======
     - state: senior
@@ -420,6 +433,9 @@
 =======
     - state: senior
 >>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
+=======
+    - state: idseniorresearcher
+>>>>>>> parent of 7cf5eb7feb (Fixes-1)
   - type: PresetIdCard
     job: ArchmaesterDSM
 
@@ -436,6 +452,7 @@
     - state: default
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorresearcher
 =======
     - state: senior
@@ -443,6 +460,9 @@
 =======
     - state: senior
 >>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
+=======
+    - state: idseniorresearcher
+>>>>>>> parent of 7cf5eb7feb (Fixes-1)
   - type: PresetIdCard
     job: SurgeonDSM
 
@@ -459,6 +479,7 @@
     - state: default
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorresearcher
 =======
     - state: senior
@@ -466,6 +487,9 @@
 =======
     - state: senior
 >>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
+=======
+    - state: idseniorresearcher
+>>>>>>> parent of 7cf5eb7feb (Fixes-1)
   - type: PresetIdCard
     job: WealthDSM
 
@@ -482,6 +506,7 @@
     - state: default
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorresearcher
 =======
     - state: senior
@@ -489,6 +514,9 @@
 =======
     - state: senior
 >>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
+=======
+    - state: idseniorresearcher
+>>>>>>> parent of 7cf5eb7feb (Fixes-1)
   - type: PresetIdCard
     job: ForemanDSM
 
@@ -505,6 +533,7 @@
     - state: default
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorresearcher
 =======
     - state: senior
@@ -512,6 +541,9 @@
 =======
     - state: senior
 >>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
+=======
+    - state: idseniorresearcher
+>>>>>>> parent of 7cf5eb7feb (Fixes-1)
   - type: PresetIdCard
     job: ScribeDSM
 
@@ -528,6 +560,7 @@
     - state: default
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorresearcher
 =======
     - state: senior
@@ -535,6 +568,9 @@
 =======
     - state: senior
 >>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
+=======
+    - state: idseniorresearcher
+>>>>>>> parent of 7cf5eb7feb (Fixes-1)
   - type: PresetIdCard
     job: LevymanDSM
 
@@ -551,6 +587,7 @@
     - state: default
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorresearcher
 =======
     - state: senior
@@ -558,6 +595,9 @@
 =======
     - state: senior
 >>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
+=======
+    - state: idseniorresearcher
+>>>>>>> parent of 7cf5eb7feb (Fixes-1)
   - type: PresetIdCard
     job: KnightDSM
 
@@ -574,6 +614,7 @@
     - state: default
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorresearcher
 =======
     - state: senior
@@ -581,6 +622,9 @@
 =======
     - state: senior
 >>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
+=======
+    - state: idseniorresearcher
+>>>>>>> parent of 7cf5eb7feb (Fixes-1)
   - type: PresetIdCard
     job: RitterDSM
 
@@ -597,6 +641,7 @@
     - state: default
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorresearcher
 =======
     - state: senior
@@ -604,6 +649,9 @@
 =======
     - state: senior
 >>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
+=======
+    - state: idseniorresearcher
+>>>>>>> parent of 7cf5eb7feb (Fixes-1)
   - type: PresetIdCard
     job: LaborDSM
 
@@ -620,6 +668,7 @@
     - state: default
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorresearcher
 =======
     - state: senior
@@ -627,6 +676,9 @@
 =======
     - state: senior
 >>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
+=======
+    - state: idseniorresearcher
+>>>>>>> parent of 7cf5eb7feb (Fixes-1)
   - type: PresetIdCard
     job: CourtierDSM
 
@@ -643,6 +695,7 @@
     - state: default
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorresearcher
 =======
     - state: senior
@@ -650,6 +703,9 @@
 =======
     - state: senior
 >>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
+=======
+    - state: idseniorresearcher
+>>>>>>> parent of 7cf5eb7feb (Fixes-1)
   - type: PresetIdCard
     job: AdjutantDSM
 
@@ -666,6 +722,7 @@
     - state: default
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorresearcher
 =======
     - state: senior
@@ -673,6 +730,9 @@
 =======
     - state: senior
 >>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
+=======
+    - state: idseniorresearcher
+>>>>>>> parent of 7cf5eb7feb (Fixes-1)
   - type: PresetIdCard
     job: GovernorDSM
 
@@ -688,6 +748,7 @@
     - state: default
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idbotanist
 =======
     - state: botanist
@@ -695,6 +756,9 @@
 =======
     - state: botanist
 >>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
+=======
+    - state: idbotanist
+>>>>>>> parent of 7cf5eb7feb (Fixes-1)
   - type: PresetIdCard
     job: TenderSRM
 
@@ -708,6 +772,7 @@
     - state: default
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idbotanist
 =======
     - state: botanist
@@ -715,6 +780,9 @@
 =======
     - state: botanist
 >>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
+=======
+    - state: idbotanist
+>>>>>>> parent of 7cf5eb7feb (Fixes-1)
   - type: PresetIdCard
     job: AcolyteSRM
 
@@ -728,6 +796,7 @@
     - state: default
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idbotanist
 =======
     - state: botanist
@@ -735,6 +804,9 @@
 =======
     - state: botanist
 >>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
+=======
+    - state: idbotanist
+>>>>>>> parent of 7cf5eb7feb (Fixes-1)
   - type: PresetIdCard
     job: HunterSRM
 
@@ -748,6 +820,7 @@
     - state: default
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idbotanist
 =======
     - state: botanist
@@ -755,6 +828,9 @@
 =======
     - state: botanist
 >>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
+=======
+    - state: idbotanist
+>>>>>>> parent of 7cf5eb7feb (Fixes-1)
   - type: PresetIdCard
     job: OverseerSRM
 
@@ -768,6 +844,7 @@
     - state: default
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idbotanist
 =======
     - state: botanist
@@ -775,6 +852,9 @@
 =======
     - state: botanist
 >>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
+=======
+    - state: idbotanist
+>>>>>>> parent of 7cf5eb7feb (Fixes-1)
   - type: PresetIdCard
     job: MontagneSRM
 
@@ -794,6 +874,7 @@
     - state: default
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idquartermaster
 =======
     - state: departmenthead
@@ -801,6 +882,9 @@
 =======
     - state: departmenthead
 >>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
+=======
+    - state: idquartermaster
+>>>>>>> parent of 7cf5eb7feb (Fixes-1)
   - type: PresetIdCard
     job: ExecutiveSHI
 
@@ -817,6 +901,7 @@
     - state: default
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idquartermaster
 =======
     - state: departmenthead
@@ -824,6 +909,9 @@
 =======
     - state: departmenthead
 >>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
+=======
+    - state: idquartermaster
+>>>>>>> parent of 7cf5eb7feb (Fixes-1)
   - type: PresetIdCard
     job: BoardSHI
 
@@ -840,6 +928,7 @@
     - state: default
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idquartermaster
 =======
     - state: departmenthead
@@ -847,6 +936,9 @@
 =======
     - state: departmenthead
 >>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
+=======
+    - state: idquartermaster
+>>>>>>> parent of 7cf5eb7feb (Fixes-1)
   - type: PresetIdCard
     job: CorpsecSHI
 
@@ -863,6 +955,7 @@
     - state: default
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idquartermaster
 =======
     - state: departmenthead
@@ -870,6 +963,9 @@
 =======
     - state: departmenthead
 >>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
+=======
+    - state: idquartermaster
+>>>>>>> parent of 7cf5eb7feb (Fixes-1)
   - type: PresetIdCard
     job: HighsecSHI
 
@@ -886,6 +982,7 @@
     - state: default
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idquartermaster
 =======
     - state: departmenthead
@@ -893,6 +990,9 @@
 =======
     - state: departmenthead
 >>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
+=======
+    - state: idquartermaster
+>>>>>>> parent of 7cf5eb7feb (Fixes-1)
   - type: PresetIdCard
     job: EmployeeSHI
 
@@ -909,6 +1009,7 @@
     - state: default
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idquartermaster
 =======
     - state: departmenthead
@@ -916,6 +1017,9 @@
 =======
     - state: departmenthead
 >>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
+=======
+    - state: idquartermaster
+>>>>>>> parent of 7cf5eb7feb (Fixes-1)
   - type: PresetIdCard
     job: MedtechSHI
 
@@ -934,6 +1038,7 @@
     - state: default
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorofficer
 =======
     - state: senior
@@ -941,6 +1046,9 @@
 =======
     - state: senior
 >>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
+=======
+    - state: idseniorofficer
+>>>>>>> parent of 7cf5eb7feb (Fixes-1)
   - type: PresetIdCard
     job: OrdnancemanCMM
 
@@ -957,6 +1065,7 @@
     - state: default
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorofficer
 =======
     - state: senior
@@ -964,6 +1073,9 @@
 =======
     - state: senior
 >>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
+=======
+    - state: idseniorofficer
+>>>>>>> parent of 7cf5eb7feb (Fixes-1)
   - type: PresetIdCard
     job: MachinistCMM
 
@@ -980,6 +1092,7 @@
     - state: default
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorofficer
 =======
     - state: senior
@@ -987,6 +1100,9 @@
 =======
     - state: senior
 >>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
+=======
+    - state: idseniorofficer
+>>>>>>> parent of 7cf5eb7feb (Fixes-1)
   - type: PresetIdCard
     job: PhysicianCMM
 
@@ -1003,6 +1119,7 @@
     - state: default
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorofficer
 =======
     - state: senior
@@ -1010,6 +1127,9 @@
 =======
     - state: senior
 >>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
+=======
+    - state: idseniorofficer
+>>>>>>> parent of 7cf5eb7feb (Fixes-1)
   - type: PresetIdCard
     job: MinutemanCMM
 
@@ -1026,6 +1146,7 @@
     - state: default
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorofficer
 =======
     - state: senior
@@ -1033,6 +1154,9 @@
 =======
     - state: senior
 >>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
+=======
+    - state: idseniorofficer
+>>>>>>> parent of 7cf5eb7feb (Fixes-1)
   - type: PresetIdCard
     job: WatchmasterCMM
 
@@ -1049,6 +1173,7 @@
     - state: default
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorofficer
 =======
     - state: senior
@@ -1056,6 +1181,9 @@
 =======
     - state: senior
 >>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
+=======
+    - state: idseniorofficer
+>>>>>>> parent of 7cf5eb7feb (Fixes-1)
   - type: PresetIdCard
     job: DeputyMarshalCMM
 
@@ -1072,6 +1200,7 @@
     - state: default
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - state: idseniorofficer
 =======
     - state: senior
@@ -1079,6 +1208,9 @@
 =======
     - state: senior
 >>>>>>> parent of d9f880860d (Merge pull request #1261 from MothSupremacy/Yamlslop)
+=======
+    - state: idseniorofficer
+>>>>>>> parent of 7cf5eb7feb (Fixes-1)
   - type: PresetIdCard
     job: MarshalCMM
 
