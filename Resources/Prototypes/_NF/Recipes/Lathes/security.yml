@@ -3,6 +3,7 @@
   id: BaseAmmoRecipe
   category: Ammo
   completetime: 5
+<<<<<<< HEAD
 
 - type: latheRecipe # novalite mag empty
   id: MagazineNovaliteC1Empty
@@ -64,3 +65,5 @@
     Steel: 2500
     Plasteel: 1200
     Plastic: 1500
+=======
+>>>>>>> parent of 0d00a0d5ba (Merge pull request #1254 from Sector-Crescent/eeUpdate)

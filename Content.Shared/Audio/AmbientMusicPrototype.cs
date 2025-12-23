@@ -1,5 +1,4 @@
 using Content.Shared.Random;
-using Content.Shared.Random.Rules;
 using Robust.Shared.Audio;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype;
@@ -12,6 +11,11 @@ namespace Content.Shared.Audio;
 [Prototype("ambientMusic")]
 public sealed partial class AmbientMusicPrototype : IPrototype
 {
+    [IdDataField] public string ID { get; } = string.Empty;
+
+    [ViewVariables(VVAccess.ReadWrite), DataField("sound", required: true)]
+    public SoundSpecifier Sound = default!;
+
     /// <summary>
     /// Decides if this music will play on top of other music or not.
     /// NOTE!!! THIS ISN'T DONE YET!!!
@@ -23,8 +27,8 @@ public sealed partial class AmbientMusicPrototype : IPrototype
     /// </summary>
     [DataField(required: false)]
     public int Priority = 1;
-    [IdDataField] public string ID { get; private set; } = string.Empty;
 
+<<<<<<< HEAD
     /// <summary>
     /// Can we interrupt this ambience for a better prototype if possible?
     /// </summary>
@@ -42,4 +46,6 @@ public sealed partial class AmbientMusicPrototype : IPrototype
 
     [ViewVariables(VVAccess.ReadWrite), DataField("rules", required: false, customTypeSerializer:typeof(PrototypeIdSerializer<RulesPrototype>))]
     public string Rules = string.Empty;
+=======
+>>>>>>> parent of 0d00a0d5ba (Merge pull request #1254 from Sector-Crescent/eeUpdate)
 }

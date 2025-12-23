@@ -70,11 +70,11 @@ AirlockBrigLocked: AirlockSecurityLawyerLocked
 AirlockBrigGlassLocked: AirlockSecurityLawyerGlassLocked
 WindoorSecureBrigLocked: WindoorSecureSecurityLawyerLocked
 
-  #Delta V Optional: Remove "#" for specific maps.
-  #AsteroidRock: AsteroidAltRock
-  #AsteroidRockMining: AsteroidAltRockMining   # These two rocks change between the two variants of
-# Wizden Rocks, they're the same rock but with two different textures
-# both are ugly, but you may have a preference.
+#Delta V Optional: Remove "#" for specific maps.
+#AsteroidRock: AsteroidAltRock
+#AsteroidRockMining: AsteroidAltRockMining   # These two rocks change between the two variants of
+                                             # Wizden Rocks, they're the same rock but with two different textures
+                                             # both are ugly, but you may have a preference.
 
 # 2023-12-16
 PlushieLizardMirrored: PlushieLizard
@@ -97,12 +97,17 @@ SpaceTickSpawnerNPC: SpaceTickSpawner
 LockableButtonBrig: LockableButtonSecurity
 SignDirectionalICU: SignDirectionalIcu
 
+# 2024-03-08
+ClothingBackpackSatchelBrigmedicDeltaVFilled: ClothingBackpackSatchelBrigmedicFilled
+ClothingBackpackDuffelBrigmedicDeltaVFilled: ClothingBackpackDuffelBrigmedicFilled
+ClothingBackpackBrigmedicDeltaVFilled: ClothingBackpackBrigmedicFilled
+
 # 2024-06-08
 CrateFunPlushie: CrateFunToyBox
 CrateFunLizardPlushieBulk: CrateFunToyBox
 
 # 2024-08-22 - Frontier Mail - Add more to these when they come up as mapped. Part of the Frontier Mail port, blame Tortuga.
-MailNFPAI: null
+MailPAI: MailNFPAI
 
 # 2024-08-27
 Oracle: OracleSpawner
@@ -114,11 +119,9 @@ GlassBoxLaser: null #Captain's Laser was moved to Loadouts.
 # 2024-12-22
 VendingMachineRestockSalvageEquipment: null
 
-# 2025-03-12
-SmartFridge: DVSmartFridgeMedical
-
 # 2025-04-05 Dear Maintainer, say nothing about this.
 AntiPsychicKnife: null
+<<<<<<< HEAD
 
 # 2025-06-06
 MagazineUniversalMagnumRubber: MagazineUniversalMagnum
@@ -155,3 +158,5 @@ Doorjack: AccessBreaker
 
 #2025-10-04
 MailTeleporter: CargoMailTeleporter
+=======
+>>>>>>> parent of 0d00a0d5ba (Merge pull request #1254 from Sector-Crescent/eeUpdate)
