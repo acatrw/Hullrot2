@@ -27,7 +27,6 @@
           - Universal
         languagesUnderstood:
           - Universal
-      onRemoveFunctions:
 
 - type: entity #The CQC skilled chip now works however it breaks when it's removed
   parent: BaseItem
