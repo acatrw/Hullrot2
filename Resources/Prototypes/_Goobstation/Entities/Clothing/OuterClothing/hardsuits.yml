@@ -83,7 +83,6 @@
     component:
     - type: Stealth
       enabledOnDeath: false
-      enabledOnCrit: false
   - type: EmitsSoundOnMove
     soundCollection:
       collection: FootstepHardsuitLight
