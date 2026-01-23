@@ -564,7 +564,6 @@
       - ClothingEyesThermalVisionGogglesCyberdawn
       - ReinforcementFlatpackSyndicateCyborgMedical
       - ReinforcementFlatpackSyndicateCyborgSaboteur
-      - ReinforcementFlatpackSyndicateCyborgAssault
       - VelatorLPC
       - TaipanLPC
       - WispLPC
@@ -721,7 +720,7 @@
       - WeaponShotgunSHIDoubleBarreled4g
       - WeaponPistolMk58SHI
       - WeaponSubMachineGunMP49
-      - WeaponSubMachineGunWt550
+      - WeaponSubMachineGunWt550Hullrot
       - WeaponRifleM90GrenadeLauncher
       - WeaponShotgunSpas
       - WeaponRifleBarghest
