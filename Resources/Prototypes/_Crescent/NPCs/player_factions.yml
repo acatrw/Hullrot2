@@ -45,3 +45,8 @@
     - DSM
     - SHI
     # - IND
+
+- type: npcFaction
+  id: Stealth
+  hostile:
+    - Dragon

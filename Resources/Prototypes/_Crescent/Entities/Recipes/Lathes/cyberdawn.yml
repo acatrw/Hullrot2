@@ -64,6 +64,40 @@
     Steel: 1500
 
 - type: latheRecipe
+  id: ClothingOuterHardsuitSyndieCyberdawn
+  result: ClothingOuterHardsuitSyndie
+  completetime: 1.5
+  materials:
+    HardsuitElectronics: 500
+    Silver: 1000
+    Durathread: 3000
+    Steel: 3000
+
+- type: latheRecipe
+  id: ClothingOuterHardsuitSyndieEliteCyberdawn
+  result: ClothingOuterHardsuitSyndieElite
+  completetime: 1.5
+  materials:
+    AdvancedElectronics: 1000
+    HardsuitElectronics: 500
+    Silver: 1000
+    Durathread: 3000
+    Steel: 3000
+
+- type: latheRecipe
+  id: ClothingOuterHardsuitSyndieJuggernautCyberdawn
+  result: ClothingOuterHardsuitJuggernaut
+  completetime: 1.5
+  materials:
+    AdvancedElectronics: 1000
+    Plastic: 3000
+    HardsuitElectronics: 500
+    Silver: 1000
+    Durathread: 3000
+    Steel: 3000
+    Tungsten: 3000
+
+- type: latheRecipe
   id: ClothingOuterHardsuitCybersunStealthCyberdawn
   result: ClothingOuterHardsuitCybersunStealth
   completetime: 1.5
@@ -71,7 +105,7 @@
     HardsuitElectronics: 500
     Silver: 750
     Durathread: 1500
-    NanotrasenElectronics: 1000
+    NanotrasenElectronics: 1500
     Steel: 1500
 
 # Equipment
@@ -180,6 +214,15 @@
     NanotrasenElectronics:  500
     Plastic: 500
     Gold: 500
+
+- type: latheRecipe
+  id: ClothingEyesThermalVisionGogglesCyberdawn
+  result: ClothingEyesThermalVisionGoggles
+  completetime: 1.5
+  materials:
+    Silver: 750
+    Steel: 1000
+    AdvancedElectronics: 1000
 
 #Implanter
 
@@ -293,6 +336,16 @@
     Plasma: 500
 
 - type: latheRecipe
+  id: EnergyShield
+  result: EnergyShield
+  completetime: 1.5
+  materials:
+    AdvancedElectronics: 1000
+    Steel: 500
+    HardlightGenerator: 1000
+    Plasma: 500
+
+- type: latheRecipe
   id: EnergySwordDouble
   result: EnergySwordDouble
   completetime: 1.5
@@ -320,15 +373,6 @@
   materials:
     Silver: 750
     Steel: 1000
-
-- type: latheRecipe
-  id: ClothingEyesThermalVisionGogglesCyberdawn
-  result: ClothingEyesThermalVisionGoggles
-  completetime: 1.5
-  materials:
-    Silver: 750
-    Steel: 1000
-    NanotrasenElectronics: 500
 
 - type: latheRecipe
   id: WeaponSubMachineGunAtreidesCyberdawn

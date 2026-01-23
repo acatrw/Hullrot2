@@ -259,9 +259,9 @@
     - type: GibOnTrigger
       deleteItems: true
     - type: Explosive
-      explosionType: Default
-      totalIntensity: 3500
-      intensitySlope: 15
+      explosionType: HardBomb
+      totalIntensity: 7000
+      intensitySlope: 35
       maxIntensity: 70
       canCreateVacuum: true
     - type: Tag

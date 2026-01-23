@@ -636,7 +636,7 @@
   - type: ExplosionResistance
     damageCoefficient: 0.5
   - type: DegradeableArmor
-    armorMaxHealth: 700
+    armorMaxHealth: 750
     armorType: Metallic
     armorRepair: SteelPlate
     initialModifiers:
@@ -659,6 +659,8 @@
     - Hardsuit
     - WhitelistChameleon
     - HidesHarpyWings
+  - type: ClothingAddFaction
+    faction: TFSC
 
 # Syndicate Medic Hardsuit
 - type: entity
@@ -670,14 +672,14 @@
   - type: ExplosionResistance
     damageCoefficient: 0.3
   - type: DegradeableArmor
-    armorMaxHealth: 700
+    armorMaxHealth: 650
     armorType: Metallic
     armorRepair: SteelPlate
     initialModifiers:
       flatReductions:
         Blunt: 30
         Slash: 25
-        Piercing: 65
+        Piercing: 60
         Heat: 15
         Caustic: 15
         Radiation: 35
@@ -697,6 +699,9 @@
     - Hardsuit
     - WhitelistChameleon
     - HidesHarpyWings
+  - type: ClothingSpeedModifier
+    walkModifier: 0.95
+    sprintModifier: 0.95
 
 #Syndicate Elite Hardsuit
 - type: entity
@@ -741,15 +746,18 @@
     damageCoefficient: 0.2
   - type: FireProtection
     reduction: 1 # perfect protection like atmos firesuit for pyro tf2 ops
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.6
-        Slash: 0.6
-        Piercing: 0.6
-        Heat: 0.2
-        Radiation: 0.01
-        Caustic: 0.5
+  - type: DegradeableArmor
+    armorMaxHealth: 500
+    armorType: Metallic
+    armorRepair: SteelPlate
+    initialModifiers:
+      flatReductions:
+        Blunt: 30
+        Slash: 25
+        Piercing: 35
+        Heat: 55
+        Caustic: 55
+        Radiation: 90
   - type: Item
     size: Huge
   - type: ClothingSpeedModifier
@@ -760,6 +768,8 @@
     clothingPrototype: ClothingHeadHelmetHardsuitSyndieElite
   - type: StaminaDamageResistance
     coefficient: 0.5 # 50%
+  - type: ClothingAddFaction
+    faction: TFSC
 
 #Syndicate Commander Hardsuit
 - type: entity
@@ -781,19 +791,22 @@
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
-    damageCoefficient: 0.5
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.4
-        Slash: 0.4
-        Piercing: 0.3
-        Heat: 0.5
-        Radiation: 0.25
-        Caustic: 0.4
+    damageCoefficient: 0.3
+  - type: DegradeableArmor
+    armorMaxHealth: 800
+    armorType: Metallic
+    armorRepair: SteelPlate
+    initialModifiers:
+      flatReductions:
+        Blunt: 30
+        Slash: 25
+        Piercing: 70
+        Heat: 30
+        Caustic: 15
+        Radiation: 45
   - type: ClothingSpeedModifier
-    walkModifier: 1.0
-    sprintModifier: 1.0
+    walkModifier: 0.9
+    sprintModifier: 0.9
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitSyndieCommander
@@ -823,19 +836,18 @@
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
     damageCoefficient: 0.1
-  - type: Armor
-    modifiers:
+  - type: DegradeableArmor
+    armorMaxHealth: 2000
+    armorType: Plastic
+    armorRepair: SteelPlate
+    initialModifiers:
       flatReductions:
-        Blunt: 3
-        Piercing: 3
-        Slash: 3
-      coefficients:
-        Blunt: 0.4
-        Slash: 0.4
-        Piercing: 0.3
-        Heat: 0.4
-        Radiation: 0.75
-        Caustic: 0.6
+        Blunt: 30
+        Slash: 25
+        Piercing: 70
+        Heat: 30
+        Caustic: 15
+        Radiation: 45
   - type: ClothingSpeedModifier
     sprintModifier: 0.7
   - type: HeldSpeedModifier

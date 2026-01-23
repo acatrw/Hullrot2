@@ -453,7 +453,7 @@
     - type: MobThresholds
       thresholds:
         0: Alive
-        200: Critical
+        150: Critical
         400: Dead
     - type: ShowHealthBars
       damageContainers:

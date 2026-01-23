@@ -11,7 +11,7 @@
     - type: ItemToggle
       onUse: false # can't really wear it like that
 
-- type: entity
+- type: entity #Why is this even here
   id: BaseIntegratedManeuveringThrusters
   name: integrated maneuvering thrusters
   description: A set of maneuvering thrusters integrated into a suit.
@@ -20,8 +20,8 @@
     - type: GasTank
       outputPressure: 42.6
       air:
-        # 10 minutes of thrust
-        volume: 3.75
+        # 20 minutes of thrust?
+        volume: 7
         temperature: 293.15
         moles:
           - 0.769267145 # oxygen

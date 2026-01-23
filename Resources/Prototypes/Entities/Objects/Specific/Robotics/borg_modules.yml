@@ -645,7 +645,6 @@
       - SyndicateJawsOfLife
       - Emag
       - Doorjack
-      - WelderIndustrial
       - MassScannerEEBorg
       droppableItems:
       - id: JetpackBlackFilled

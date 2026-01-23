@@ -52,21 +52,13 @@
     size: Huge
   - type: Clothing
     sprite: _Crescent/Clothing/Syndicate/OuterClothing/cybersunstealth.rsi
-    #onEquipFunctions:
-    #  - !type:TraitAddComponent
-    #    components:
-   #       - type: BreakStealthOnAttack
-   # onUnequipFunctions:
-    #  - !type:TraitRemoveComponent
-     #   components:
-     #     - type: BreakStealthOnAttack
   - type: PressureProtection
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
-    damageCoefficient: 0.65
+    damageCoefficient: 0.10
   - type: DegradeableArmor
-    armorMaxHealth: 600
+    armorMaxHealth: 450
     armorType: Metallic
     armorRepair: SteelPlate
     initialModifiers:
@@ -87,14 +79,20 @@
     tags:
     - Hardsuit
     - WhitelistChameleon
+  - type: ClothingGrantComponent
+    component:
+    - type: Stealth
+      enabledOnDeath: false
+      enabledOnCrit: false
   - type: EmitsSoundOnMove
     soundCollection:
       collection: FootstepHardsuitLight
       params:
-        volume: -15
-        maxDistance: 4
+        volume: -30
+        maxDistance: 1
         rolloffFactor: 1.2
-        # SIGNIFICANTLY Quieter than a normal hardsuit, but not perfectly stealthy. If you move while people are close enough, they can still hear it.
+  - type: ClothingAddFaction
+    faction: Stealth
 
 # cybersun dreadnought
 
@@ -140,7 +138,7 @@
     - type: DamageOverTime
       damage:
         types:
-          Piercing: 0.3
+          Piercing: 0.1
       interval: 1.0
       ignoreResistances: true
   - type: StaminaDamageResistance

@@ -12,6 +12,52 @@
 
 - type: entity
   parent: BaseItem
+  id: Babylon
+  name: Babel skillchip
+  description: Let you understand every known language.
+  components:
+    - type: Sprite
+      sprite: _Crescent/Objects/Misc/skillchips.rsi
+      layers:
+        - state: white_chip_2
+    - type: Skillchip
+      onImplantFunctions:
+      - !type:TraitModifyLanguages
+        languagesSpoken:
+          - Universal
+        languagesUnderstood:
+          - Universal
+      onRemoveFunctions:
+      - !type:TraitModifyLanguages
+        RemoveLanguagesSpoken:
+          - Universal
+        RemoveLanguagesUnderstood:
+          - Universal
+
+- type: entity #Currently doesn't work
+  parent: BaseItem
+  id: CQCchip
+  name: CQC skillchip
+  description: Let you understand every known language.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/skillchips.rsi
+    layers:
+    - state: white_chip_2
+  - type: Skillchip
+    onImplantFunctions:
+    - !type:TraitAddComponent
+      components:
+      - type: MartialArtsForms
+      - type: MartialArtsForms
+        MartialArtsForms: CloseQuartersCombat
+    onRemoveFunctions:
+    - !type:TraitRemoveComponent
+      components:
+      - type: MartialArtsForms
+
+- type: entity
+  parent: BaseItem
   id: SkillchipAdmeme
   name: skillchip that does things
   description: Admemery at work, people.

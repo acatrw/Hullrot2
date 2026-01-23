@@ -114,8 +114,8 @@
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Gun
-    minAngle: 21
-    maxAngle: 32
+    minAngle: 2
+    maxAngle: 16
     fireRate: 8
     selectedMode: FullAuto
     availableModes:
@@ -148,11 +148,6 @@
   - type: Appearance
   - type: StaticPrice
     price: 400
-  - type: Wieldable
-    unwieldOnUse: false
-  - type: GunWieldBonus
-    minAngle: -19
-    maxAngle: -16
 
 - type: entity
   name: C-20R ROW
@@ -161,8 +156,8 @@
   description: A C20 SMG for use by cyborgs. Creates 11 mm Pistol ammo on the fly from an internal ammo fabricator, which slowly self-charges.
   components:
   - type: Gun
-    minAngle: 15
-    maxAngle: 25
+    minAngle: 2
+    maxAngle: 16
     fireRate: 8
     selectedMode: FullAuto
     availableModes:
@@ -191,7 +186,7 @@
     startingCharge: 2500
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 25
+    autoRechargeRate: 100
   - type: AmmoCounter
 
 - type: entity

@@ -44,6 +44,7 @@
   recipeUnlocks:
   - DnaScramblerImplanter
   - FreedomImplanter
+  - DeathacidifierImplanter
   - RadioJammerCyberdawn
   - PowerSinkCyberdawn
   - ClothingBackpackChameleonFillCyberdawn
@@ -129,18 +130,6 @@
   - AdvancedElectronics1Craft
 
 - type: technology
-  id: CyberdawnEnergyDagger
-  name: research-technology-cyberdawn-energydagger
-  icon:
-    sprite: Objects/Weapons/Melee/e_dagger.rsi
-    state: icon
-  discipline: Cyberdawn
-  tier: 2
-  cost: 5000
-  recipeUnlocks:
-  - EnergyDagger
-
-- type: technology
   id: ESword
   name: research-technology-cyberdawn-CDTPhoronBlade
   icon:
@@ -151,18 +140,21 @@
   cost: 7500
   recipeUnlocks:
   - EnergySword
+  - EnergyDagger
+  - EnergyShield
 
 - type: technology
-  id: CyberdawnZhongyao
-  name: research-technology-cyberdawn-zhongyao
+  id: CyberdawnAVtacsuits
+  name: research-technology-cyberdawn-AVTacsuits
   icon:
     sprite: _Impstation/Clothing/OuterClothing/Hardsuits/syndicate_agent.rsi
     state: icon
   discipline: Cyberdawn
   tier: 2
-  cost: 5000
+  cost: 7500
   recipeUnlocks:
   - ClothingOuterHardsuitSyndieMedicCyberdawn
+  - ClothingOuterHardsuitSyndieCyberdawn
 
 - type: technology
   id: CDTSaboteurcyborgs
@@ -188,20 +180,6 @@
   recipeUnlocks:
   - ReinforcementFlatpackSyndicateCyborgMedical
 
-# tier 3
-
-- type: technology
-  id: CyberdawnEgui
-  name: research-technology-cyberdawn-egui
-  icon:
-    sprite: _Goobstation/Clothing/OuterClothing/Hardsuits/cybersunstealth.rsi
-    state: icon
-  discipline: Cyberdawn
-  tier: 3
-  cost: 10000
-  recipeUnlocks:
-  - ClothingOuterHardsuitCybersunStealthCyberdawn
-
 - type: technology
   id: CyberdawnPsybreaker
   name: research-technology-cyberdawn-psybreaker
@@ -209,11 +187,27 @@
     sprite: DeltaV/Objects/Weapons/Guns/Pistols/psibreaker.rsi
     state: base
   discipline: Cyberdawn
-  tier: 3
-  cost: 10000
+  tier: 2
+  cost: 5000
   recipeUnlocks:
   - WeaponPistolPsiBreakerCyberdawn
   - MagazinePistolSpecialMindbreakerCyberdawn
+
+# tier 3
+
+- type: technology
+  id: CyberdawnEXtacsuits
+  name: research-technology-cyberdawn-EXtacsuits
+  icon:
+    sprite: _Goobstation/Clothing/OuterClothing/Hardsuits/cybersunstealth.rsi
+    state: icon
+  discipline: Cyberdawn
+  tier: 3
+  cost: 15000
+  recipeUnlocks:
+  - ClothingOuterHardsuitCybersunStealthCyberdawn
+  - ClothingOuterHardsuitSyndieEliteCyberdawn
+  - ClothingOuterHardsuitSyndieJuggernautCyberdawn
 
 - type: technology
   id: CyberdawnThermals
@@ -226,18 +220,6 @@
   cost: 8000
   recipeUnlocks:
   - ClothingEyesThermalVisionGogglesCyberdawn
-
-- type: technology
-  id: CDTCombatcyborgs
-  name: research-technology-cyberdawn-CDTCombatcyborgs
-  icon:
-    sprite: Mobs/Silicon/chassis.rsi
-    state: synd_sec
-  discipline: Cyberdawn
-  tier: 3
-  cost: 15000
-  recipeUnlocks:
-  - ReinforcementFlatpackSyndicateCyborgAssault
 
 - type: technology
   id: CyberdawnAdvancedLaunchers
