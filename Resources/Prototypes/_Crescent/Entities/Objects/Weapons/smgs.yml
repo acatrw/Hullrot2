@@ -532,7 +532,7 @@
     startingCharge: 2500
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 100
+    autoRechargeRate: 25
   - type: AmmoCounter
 
 #PTA

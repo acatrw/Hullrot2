@@ -68,7 +68,7 @@
       Heat: 24
       Blunt: 24
       Piercing: 12
-      Structural: 750
+      Structural: 25
   tileBreakChance: [ 0, 0.5, 1 ]
   tileBreakIntensity: [ 1, 10, 15 ]
   tileBreakRerollReduction: 30
@@ -122,10 +122,10 @@
   id: PowerSink
   damagePerIntensity:
     types:
-      Heat: 24
-      Blunt: 24
-      Piercing: 12
-      Structural: 600
+      Heat: 12
+      Blunt: 12
+      Piercing: 6
+      Structural: 35
   tileBreakChance: [ 0, 0.5, 1 ]
   tileBreakIntensity: [ 1, 5, 10 ]
   tileBreakRerollReduction: 3
@@ -138,10 +138,10 @@
   id: HardBomb
   damagePerIntensity:
     types:
-      Heat: 30
-      Blunt: 30
+      Heat: 15
+      Blunt: 15
       Piercing: 12
-      Structural: 1000
+      Structural: 40
   tileBreakChance: [ 0, 0.5, 1 ]
   tileBreakIntensity: [ 0, 10, 30 ]
   tileBreakRerollReduction: 10

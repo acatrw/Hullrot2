@@ -299,7 +299,7 @@
     Biomass: 10
     Gold: 400
     Plastic: 500
-    Plasma: 1000
+    Plasma: 3000
 
 - type: latheRecipe
   id: ScramImplanter
@@ -549,11 +549,11 @@
   completetime: 1.5
   materials:
     AdvancedElectronics: 1000
-    AdvancedMechatronics: 1500
+    AdvancedMechatronics: 2000
     Silver: 2000
     Steel: 1500
     Gold: 1000
-    Plasma: 3000
+    Plasma: 12000
     BallisticCycler: 500
     HardlightGenerator: 500
     LaserLocus: 500
