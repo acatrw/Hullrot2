@@ -34,7 +34,7 @@
         RemoveLanguagesUnderstood:
           - Universal
 
-- type: entity #Currently doesn't work
+- type: entity #The CQC skilled chip now works however it breaks when it's removed
   parent: BaseItem
   id: CQCchip
   name: CQC skillchip
@@ -43,18 +43,19 @@
   - type: Sprite
     sprite: _Crescent/Objects/Misc/skillchips.rsi
     layers:
-    - state: white_chip_2
+    - state: black_chip_3
   - type: Skillchip
     onImplantFunctions:
     - !type:TraitAddComponent
       components:
-      - type: MartialArtsForms
-      - type: MartialArtsForms
-        MartialArtsForms: CloseQuartersCombat
+      - type: GrantCqc
+        isBlocked: False
+      - type: MartialArtsKnowledge
     onRemoveFunctions:
     - !type:TraitRemoveComponent
       components:
-      - type: MartialArtsForms
+      - type: GrantCqc
+      - type: MartialArtsKnowledge
 
 - type: entity
   parent: BaseItem

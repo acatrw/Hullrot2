@@ -38,9 +38,10 @@ public partial class SharedMartialArtsSystem
 
             if (!TryGrant(ent.Comp, ent))
                 return;
-
+        /* We don't have chefs and it prevents the skill Chip from working.
             if (TryComp<MartialArtsKnowledgeComponent>(ent, out var knowledge))
                 knowledge.Blocked = true;
+        */
         }
 
     private void OnGrantCQCUse(Entity<GrantCqcComponent> ent, ref UseInHandEvent args)
