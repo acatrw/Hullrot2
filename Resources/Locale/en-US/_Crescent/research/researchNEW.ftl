@@ -66,7 +66,6 @@ research-technology-cyberdawn-CDTAdvancedComponents = Advanced components
 research-technology-cyberdawn-CDTAdvancedFirearmcomponents = Advanced Firearm components
 research-technology-cyberdawn-CDTPhoronBlade = Phoron Technologies
 research-technology-cyberdawn-CDTDualPhoronBlade = Experimental Phoron Technologies
-research-technology-cyberdawn-CDTCombatcyborgs = Combat cyborgs
 research-technology-cyberdawn-CDTMedicalcyborgs = Medical cyborgs
 research-technology-cyberdawn-CDTSaboteurcyborgs = Saboteur cyborgs
 research-technology-cyberdawn-CDTShipT1LPC = Basic stealth ship production
