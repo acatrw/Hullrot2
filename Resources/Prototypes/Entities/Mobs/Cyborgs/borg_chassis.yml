@@ -521,6 +521,9 @@
     - type: Sanitized # Shitmed
     - type: SurgerySpeedModifier
       speedModifier: 3
+    - type: NpcFactionMember
+      factions:
+      - TFSC
 
 - type: entity
   id: BorgChassisSyndicateSaboteur
@@ -557,3 +560,8 @@
       interactFailureString: petting-failure-syndicate-cyborg
       interactSuccessSound:
         path: /Audio/Ambience/Objects/periodic_beep.ogg
+    - type: MobThresholds
+      thresholds:
+        0: Alive
+        75: Critical
+        300: Dead
