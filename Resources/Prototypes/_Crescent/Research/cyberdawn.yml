@@ -207,7 +207,7 @@
   recipeUnlocks:
   - ClothingOuterHardsuitCybersunStealthCyberdawn
   - ClothingOuterHardsuitSyndieEliteCyberdawn
-  - ClothingOuterHardsuitSyndieJuggernautCyberdawn
+
 
 - type: technology
   id: CyberdawnThermals
