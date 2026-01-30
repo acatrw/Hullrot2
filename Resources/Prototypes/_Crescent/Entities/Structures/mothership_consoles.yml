@@ -57,11 +57,12 @@
     - Redemptor
     - Ibis
     - Impel
+    - Covetor
     - Gnosis
     - Praxis
-    - Imparator
+    - Sunesis
     - Laelaps
-    - Dragoon
+    #- Dragoon
     - Suzerain
 
 - type: entity
@@ -71,7 +72,6 @@
   components:
   - type: ShipyardListing
     shuttles:
-    - Janissary
     - Redemptor
     - Imparator
     - Perigale
