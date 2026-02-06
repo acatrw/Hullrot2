@@ -615,6 +615,7 @@
       - WeaponMechIndustrialKineticAcceleratorImperial
       - MechEquipmentGrabberImperial
       - WeaponMechMeleeDrillImperial
+      - WeaponMechMaul
       - WeaponRifleMiller
       - WeaponRevolverArgenti
       - WeaponPistolComplianceImperial
@@ -716,6 +717,8 @@
       - ShinoharaOptics
       - WeaponMechCombatAutoshotgun
       - WeaponMechCombatLightRifle
+      - WeaponMechCombatHeavyRifle
+      - WeaponMechCombatAutocannon
       - WeaponMechSword
       - WeaponMechGustaf
       - ClothingUniformJumpsuitShinoharaHighsec
@@ -750,6 +753,12 @@
       - BallisticCycler1
       - TubeLoader1
       - LaserLocus1
+      - BallisticCyclerNCWL
+      - TubeLoaderNCWL
+      - HardsuitElectronicsNCWL
+      - BallisticCyclerDSM
+      - TubeLoaderDSM
+      - HardsuitElectronicsDSM
       - MagwellFlatpack
       - IdnaFlatpack
       - IdnaTorpedo
@@ -1414,6 +1423,16 @@
       - ClothingNeckIFFBlue
       - ClothingNeckIFFOrange
       - ClothingNeckIFFPurple
+      - WeaponCaseRifle
+      - GrenadeCase
+      - WeaponCasePistol
+      - WeaponCaseSmg
+      - WeaponCaseSniper
+      - WeaponCaseRpg
+      - WeaponCaseLmg
+      - WeaponCaseShotgun
+      - WeaponCaseGl
+      - WeaponCaseAmmo
 
   - type: Machine
     board: MicroforgeCircuitboard
