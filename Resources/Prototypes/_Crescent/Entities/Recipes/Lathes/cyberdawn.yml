@@ -223,7 +223,7 @@
   materials:
     Silver: 750
     Steel: 1000
-    AdvancedElectronics: 1000
+    NanotrasenElectronics: 500
 
 #Implanter
 

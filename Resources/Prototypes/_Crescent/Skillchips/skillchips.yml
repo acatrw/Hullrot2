@@ -56,6 +56,12 @@
           - Universal
         languagesUnderstood:
           - Universal
+      onRemoveFunctions:
+      - !type:TraitModifyLanguages
+        RemoveLanguagesSpoken:
+          - Universal
+        RemoveLanguagesUnderstood:
+          - Universal
 
 - type: entity #The CQC skilled chip now works however it breaks when it's removed
   parent: BaseItem

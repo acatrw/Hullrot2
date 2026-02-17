@@ -725,14 +725,14 @@
   - type: FireProtection
     reduction: 1 # perfect protection like atmos firesuit for pyro tf2 ops
   - type: DegradeableArmor
-    armorMaxHealth: 500
+    armorMaxHealth: 650
     armorType: Metallic
     armorRepair: SteelPlate
     initialModifiers:
       flatReductions:
         Blunt: 30
         Slash: 25
-        Piercing: 35
+        Piercing: 55
         Heat: 55
         Caustic: 55
         Radiation: 90
