@@ -86,19 +86,6 @@
     Steel: 3000
 
 - type: latheRecipe
-  id: ClothingOuterHardsuitSyndieJuggernautCyberdawn
-  result: ClothingOuterHardsuitJuggernaut
-  completetime: 1.5
-  materials:
-    AdvancedElectronics: 1000
-    Plastic: 3000
-    HardsuitElectronics: 500
-    Silver: 1000
-    Durathread: 3000
-    Steel: 3000
-    Tungsten: 3000
-
-- type: latheRecipe
   id: ClothingOuterHardsuitCybersunStealthCyberdawn
   result: ClothingOuterHardsuitCybersunStealth
   completetime: 1.5

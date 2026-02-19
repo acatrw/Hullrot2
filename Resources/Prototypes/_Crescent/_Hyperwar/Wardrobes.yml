@@ -22,6 +22,8 @@
     WeaponRifleHoundMarksman: 60
     WeaponLightMachineGunNCSPRPD: 60
     WeaponLightMachineGunL6: 60
+    WeaponSubMachineGunCorsair: 60
+    WeaponLightMachineGunCompakt: 60
     WeaponSubMachineGunAtreidesHullrot: 60
     WeaponSubMachineGunCheshyre: 60
     WeaponSubMachineGunMP5: 60
@@ -88,14 +90,27 @@
     HandHeldMassScannerEE: 150
     Crowbar: 150
     Emag: 150
+    Doorjack: 150
+    AgentIDCard: 150
+    SyndicateJawsOfLife: 150
+    ScramImplanter: 30
+    DeathAcidifierImplanter: 30
+    MicroBombImplanter: 30
+    MacroBombImplanter: 30
     BoxBreachingCharges: 150
     ClothingOuterHardsuitSyndicateBG: 150
     ClothingOuterHardsuitTraumasec: 150
     ClothingOuterHardsuitCybersun: 150
+    ClothingBackpackDuffelSyndicateHardsuitBundle: 150
+    ClothingBackpackDuffelSyndicateHardsuitMedicBundle: 150
+    ClothingBackpackDuffelSyndicateHardsuitCommanderBundle: 150
+    ClothingBackpackDuffelSyndicateEliteHardsuitBundleL: 150
     ClothingOuterHardsuitRamzi: 150
     OxygenTankFilled: 150
     ClothingShoesBootsMagAdv: 150
-    StimpackMini: 150
+    StimkitFilled: 50
+    Stimpack: 150
+    CombatMedipen: 150
     MechaniteAutoinjector: 150
     KaiserAutoinjector: 150
     ExileAutoinjector: 150
