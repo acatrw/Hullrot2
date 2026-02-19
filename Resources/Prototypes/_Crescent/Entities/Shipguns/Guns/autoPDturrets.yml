@@ -68,17 +68,19 @@
         - FullAuto
       soundGunshot: /Audio/Weapons/Guns/Gunshots/gun_sentry.ogg
     # TODO: Power ammo provider?
-    - type: BasicEntityAmmoProvider
+    - type: ProjectileBatteryAmmoProvider
       proto: CartridgeAutoPDBasic
-      capacity: 300
-      count: 300
-    - type: RechargeBasicEntityAmmo
-      rechargeCooldown: 2
-      rechargeSound:
-        path: /Audio/Weapons/Guns/Bolt/lmg_bolt_closed.ogg
-        params:
-          pitch: 1.2
-          variation: 0.08
+      fireCost: 10
+    - type: Battery
+      maxCharge: 200
+      startingCharge: 0
+    - type: ApcPowerReceiverBattery
+      idleLoad: 1000
+      batteryRechargeRate: 200
+      batteryRechargeEfficiency: 1
+    - type: ApcPowerReceiver
+      powerLoad: 1000
+    - type: ExtensionCableReceiver
     - type: SignalControl
       isOnByDefault: true
     - type: DeviceNetwork
@@ -91,9 +93,6 @@
         - Toggle
         - On
         - Off
-    - type: ApcPowerReceiver
-      powerLoad: 1000
-    - type: ExtensionCableReceiver
     - type: LightningTarget
       priority: 1
     - type: MouseRotator
@@ -104,11 +103,6 @@
     - type: NoRotateOnMove
     - type: Input
       context: "human"
-    - type: Anchorable
-      delay: 10
-    - type: HardpointAnchorableOnly
-      class: Ballistic
-      size: Small
     - type: HTN
       rootTask:
         task: HullrotAutoPD
