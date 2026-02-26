@@ -680,6 +680,11 @@
   - type: ClothingSpeedModifier
     walkModifier: 0.95
     sprintModifier: 0.95
+  - type: ReverseEngineering
+    difficulty: 3
+    recipes:
+      - ClothingOuterHardsuitSyndieMedicCyberdawn
+      - ClothingOuterHardsuitCybersun
 
 #Syndicate Elite Hardsuit
 - type: entity

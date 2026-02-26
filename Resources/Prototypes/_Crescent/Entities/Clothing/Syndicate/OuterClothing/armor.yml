@@ -29,6 +29,9 @@
     price: 250
   - type: ClothingAddFaction
     faction: TFSC
+  - type: ReverseEngineering # Sector Crescent
+    recipes:
+      - ClothingOuterArmorSyndicateForeman
 
 - type: entity
   parent: ClothingOuterBaseLarge
@@ -61,6 +64,9 @@
     price: 250
   - type: ClothingAddFaction
     faction: TFSC
+  - type: ReverseEngineering # Sector Crescent
+    recipes:
+      - ClothingOuterArmorSyndicateCoordinator
 
 - type: entity
   parent: ClothingOuterBaseLarge
@@ -142,6 +148,9 @@
     price: 100
   - type: ClothingAddFaction
     faction: TFSC
+  - type: ReverseEngineering # Sector Crescent
+    recipes:
+      - ClothingOuterArmorSyndicateApron
 
 - type: entity
   parent: ClothingOuterArmorBasic
@@ -174,6 +183,10 @@
     price: 250
   - type: ClothingAddFaction
     faction: TFSC
+  - type: ReverseEngineering # Sector Crescent
+    recipes:
+      - ClothingOuterArmorSyndicateArmorvest
+      - ClothingHeadHelmetSyndicateBasic
 
 - type: entity
   parent: ClothingOuterArmorBasic
@@ -206,6 +219,10 @@
     price: 250
   - type: ClothingAddFaction
     faction: TFSC
+  - type: ReverseEngineering # Sector Crescent
+    recipes:
+      - ClothingOuterArmorSyndicateArmorvestInterdyne
+      - ClothingHeadHelmetSyndicateBasicInterdyne
 
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterArmorBasic]
@@ -238,6 +255,10 @@
     price: 350
   - type: ClothingAddFaction
     faction: TFSC
+  - type: ReverseEngineering # Sector Crescent
+    recipes:
+      - ClothingOuterArmorSyndicateRingmaster
+      - ClothingOuterArmorSyndicateLieutenant
 
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterArmorBasic]
@@ -270,6 +291,9 @@
     price: 450
   - type: ClothingAddFaction
     faction: TFSC
+  - type: ReverseEngineering # Sector Crescent
+    recipes:
+      - ClothingOuterArmorSyndicateLieutenant
 
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterArmorBasic]

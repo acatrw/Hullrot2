@@ -83,6 +83,10 @@
     toggleAction: ToggleThermalVision
   - type: IdentityBlocker
     coverage: EYES
+  - type: ReverseEngineering
+    difficulty: 3
+    recipes:
+      - ClothingEyesThermalVisionGogglesCyberdawn
 
 - type: entity
   parent: ClothingEyesThermalVisionGoggles
