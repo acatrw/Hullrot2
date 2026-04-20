@@ -374,7 +374,7 @@
 
 - type: entity
   parent: BaseTurretShipgun
-  id: WeaponTurretAbsolutionsaw
+  id: WeaponTurretBreakersaw
   suffix: Medium Laser
   name: 350cc 'Breaker' Burst Laser
   description: A modified medium high energy weapon designed to destroy halls for salvaging.
