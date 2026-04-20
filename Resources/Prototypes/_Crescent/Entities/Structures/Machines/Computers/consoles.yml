@@ -55,7 +55,7 @@
   - type: Computer
     board: C_ShuttleConsoleCircuitboard
   - type: Damageable
-    damageContainer: Inorganic
+    damageContainer: StructuralInorganic
     damageModifierSet: Electronic
   - type: Destructible
     thresholds:
@@ -86,7 +86,7 @@
       sprite: Structures/Machines/computers.rsi
       state: generic_keys
   - type: Damageable
-    damageContainer: Inorganic
+    damageContainer: StructuralInorganic
     damageModifierSet: Electronic
   - type: Destructible
     thresholds:
