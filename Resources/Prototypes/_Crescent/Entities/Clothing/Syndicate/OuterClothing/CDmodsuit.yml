@@ -80,7 +80,7 @@
   parent: [ClothingModsuitChestplateStandard, ClothingArmorInsertHardsuitJugg]
   id: ClothingModsuitChestplateBloodredModsuithull
   name: CDT "Raider" Modsuit Chestplate
-  description:
+  description: The Raider monster was designed for enhanced boarding actions it provides assisted movement to the user.
   categories: [HideSpawnMenu]
   components:
   - type: Sprite
@@ -208,13 +208,12 @@
     - Biological
   - type: PointLight
     color: "#ffd480"
-  - type: NightVision
 
 - type: entity
   parent: [ClothingModsuitChestplateStandard, ClothingArmorInsertHardsuit]
   id: ClothingModsuitChestplateEliteSyndicateModsuithull
   name: CDT-122MS "Jaeger" Modsuit Chestplate
-  description:
+  description: The Jaeger Modular suit is designed for efficient, quick combat, featuring advanced assistive technology and blue space-reinforced explosive dampening.
   categories: [HideSpawnMenu]
   components:
   - type: Sprite
