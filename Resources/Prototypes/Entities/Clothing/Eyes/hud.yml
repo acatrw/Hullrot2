@@ -245,12 +245,17 @@
   - type: Clothing
     sprite: Clothing/Eyes/Hud/synd.rsi
   - type: ShowSyndicateIcons
+  - type: ShowHealthBars
+    damageContainers:
+    - Biological
+    - Inorganic
+    - Silicon
 
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons, BallisticGlasses]
   id: ClothingEyesHudSyndicateAgent
   name: syndicate agent visor
-  description: The Syndicate Agent's professional heads-up display, designed for quick diagnosis of their team's status.
+  description: The Syndicate Agent's professional heads-up display, Designed for adequate use of chemical agents.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/syndagent.rsi
@@ -260,6 +265,9 @@
   - type: ShowHealthBars
     damageContainers:
     - Biological
+    - Inorganic
+    - Silicon
+  - type: SolutionScanner
 
 - type: entity
   parent: [ClothingEyesGlassesSunglasses, ShowSecurityIcons]
@@ -286,7 +294,7 @@
   - type: Sprite
     sprite: Clothing/Eyes/Hud/secpatch.rsi
   - type: Clothing
-    sprite: Clothing/Eyes/Hud/secpatch.rsi 
+    sprite: Clothing/Eyes/Hud/secpatch.rsi
 
 - type: entity
   parent: [ClothingEyesHudSecurity, FlippableEyesBase]

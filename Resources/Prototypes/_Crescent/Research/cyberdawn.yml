@@ -16,6 +16,8 @@
   - ClothingHeadHatPatriarch
   - ClothingOuterArmorKendoBoguCyberdawn
   - ClothingOuterHardsuitCybersun
+  - ClothingEyesHudSyndicate
+  - ClothingEyesChemGogglesCyberdawn
 
 - type: technology
   id: CyberdawnReverseEngi
@@ -41,7 +43,7 @@
     state: base
   discipline: Cyberdawn
   tier: 1
-  cost: 6000
+  cost: 5000
   recipeUnlocks:
   - WeaponShotgunTuberCyberdawn
   - WeaponSubMachineGunAtreidesCyberdawn
@@ -58,7 +60,7 @@
     state: implanter0
   discipline: Cyberdawn
   tier: 1
-  cost: 6000
+  cost: 5000
   recipeUnlocks:
   - DnaScramblerImplanter
   - FreedomImplanter
@@ -103,6 +105,7 @@
   - SyndicateJawsOfLifeCyberdawn
   - StorageImplanter
   - MicroBombImplanter
+  - ClothingEyesNightVisionGogglesCyberdawn
 
 - type: technology
   id: CyberdawnAdvancedBallistics
@@ -112,7 +115,7 @@
     state: base
   discipline: Cyberdawn
   tier: 2
-  cost: 9000
+  cost: 10000
   recipeUnlocks:
   - WeaponShotgunSaiga12NCSP
   - WeaponSubMachineGunCorsairCyberdawn
@@ -145,7 +148,7 @@
     state: tubeloaderrobotics
   discipline: Cyberdawn
   tier: 2
-  cost: 9000
+  cost: 10000
   recipeUnlocks:
   - BallisticCycler1Craft
   - TubeLoader1Craft
@@ -160,7 +163,7 @@
     state: advancedmechanic
   discipline: Cyberdawn
   tier: 2
-  cost: 9000
+  cost: 10000
   recipeUnlocks:
   - AdvancedMechatronics1Craft
   - AdvancedElectronics1Craft
@@ -202,6 +205,18 @@
   - ClothingOuterHardsuitSyndieMedicCyberdawn
 
 - type: technology
+  id: CyberdawnRaider
+  name: research-technology-cyberdawn-Raider
+  icon:
+    sprite: _TG/Clothing/Modsuit/bloodredmodsuit.rsi
+    state: icon
+  discipline: Cyberdawn
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+  - ClothingOuterHardsuitSyndieRaiderCyberdawn
+
+- type: technology
   id: CDTSaboteurcyborgs
   name: research-technology-cyberdawn-CDTSaboteurcyborgs
   icon:
@@ -240,6 +255,18 @@
   - ClothingOuterHardsuitCybersunStealthCyberdawn
 
 - type: technology
+  id: CyberdawnJaeger
+  name: research-technology-cyberdawn-Jaeger
+  icon:
+    sprite: _Goobstation/Clothing/OuterClothing/Hardsuits/cybersunstealth.rsi
+    state: icon
+  discipline: Cyberdawn
+  tier: 3
+  cost: 10000
+  recipeUnlocks:
+  - ClothingOuterHardsuitSyndieJaegerCyberdawn
+
+- type: technology
   id: CyberdawnPsybreaker
   name: research-technology-cyberdawn-psybreaker
   icon:
@@ -260,7 +287,7 @@
     state: icon
   discipline: Cyberdawn
   tier: 3
-  cost: 8000
+  cost: 7500
   recipeUnlocks:
   - ClothingEyesThermalVisionGogglesCyberdawn
 

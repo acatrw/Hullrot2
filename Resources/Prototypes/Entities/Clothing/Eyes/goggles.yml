@@ -64,6 +64,11 @@
   suffix: "Chameleon, NukeOps"
   components:
   - type: ShowSyndicateIcons
+  - type: ShowHealthBars
+    damageContainers:
+    - Biological
+    - Inorganic
+    - Silicon
 
 # Thermal Vision Goggles
 
@@ -79,8 +84,8 @@
     sprite: Clothing/Eyes/Goggles/thermal.rsi
   - type: ThermalVision
     isEquipment: true
-    pulseTime: 2
-    toggleAction: PulseThermalVision
+    pulseTime: 0
+    toggleAction: ToggleThermalVision
   - type: IdentityBlocker
     coverage: EYES
   - type: ReverseEngineering

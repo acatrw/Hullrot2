@@ -71,6 +71,32 @@
     Tungsten: 1000
 
 - type: latheRecipe
+  id: ClothingOuterHardsuitSyndieRaiderCyberdawn
+  result: BloodredModsuitBackpackhull
+  completetime: 1.5
+  materials:
+    HardsuitElectronics: 500
+    AdvancedElectronics: 1000
+    AdvancedMechatronics: 1000
+    Silver: 500
+    Durathread: 1500
+    Steel: 1500
+    Tungsten: 1000
+
+- type: latheRecipe
+  id: ClothingOuterHardsuitSyndieJaegerCyberdawn
+  result: EliteModsuitBackpackhull
+  completetime: 1.5
+  materials:
+    HardsuitElectronics: 500
+    AdvancedElectronics: 2000
+    AdvancedMechatronics: 2000
+    Silver: 500
+    Durathread: 1500
+    Steel: 3000
+    Tungsten: 1000
+
+- type: latheRecipe
   id: ClothingOuterHardsuitCybersunStealthCyberdawn
   result: ClothingOuterHardsuitCybersunStealth
   completetime: 1.5
@@ -179,7 +205,7 @@
     Steel: 1000
     Gold: 250
 
-- type: latheRecipe #The cardboard boxes the Pinnacle of stealth technology it is the most reliable Syndicate technology ever it has successfully defeated the entirety of Central Command.
+- type: latheRecipe #The cardboard boxes the Pinnacle of stealth technology it is the most reliable Syndicate technology ever. It has successfully defeated the entirety of Central Command.
   id: StealthBoxCyberdawn
   result: StealthBox
   completetime: 1.5
@@ -187,6 +213,33 @@
     NanotrasenElectronics:  500
     Plastic: 500
     Gold: 500
+
+- type: latheRecipe
+  id: ClothingEyesGogglesCyberdawn
+  result: ClothingEyesHudSyndicate
+  completetime: 1.5
+  materials:
+    Silver: 750
+    Steel: 1000
+    BasicMechatronics: 500
+
+- type: latheRecipe
+  id: ClothingEyesChemGogglesCyberdawn
+  result: ClothingEyesHudSyndicateAgent
+  completetime: 1.5
+  materials:
+    Silver: 750
+    Steel: 1000
+    BasicMechatronics: 1000
+
+- type: latheRecipe
+  id: ClothingEyesNightVisionGogglesCyberdawn
+  result: ClothingEyesNightVisionGogglesNukie
+  completetime: 1.5
+  materials:
+    Silver: 750
+    Steel: 1000
+    AdvancedElectronics: 500
 
 - type: latheRecipe
   id: ClothingEyesThermalVisionGogglesCyberdawn

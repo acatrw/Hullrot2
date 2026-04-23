@@ -47,6 +47,7 @@
   - Engineering
   - Service
   - External
+  - Research
   - Mercenary # Frontier
   - Captain # Frontier
 
@@ -59,6 +60,7 @@
     gloves: ClothingHandsGlovesFingerless
     outerClothing: ClothingOuterArmorKendoBogu
     ears: ClothingHeadsetNCSPCyberdawn
+    eyes: ClothingEyesHudSyndicate
     back: ClothingBackpackNCSP
     pocket1: WeaponPistolAnsem
     belt: ClothingBeltSyndicateWebbing

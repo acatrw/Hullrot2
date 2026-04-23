@@ -7,7 +7,7 @@
   - type: Sprite
     sprite: _TG/Clothing/Modsuit/bloodredmodsuit.rsi
   - type: ExplosionResistance
-    damageCoefficient: 0.5
+    damageCoefficient: 0.01
   - type: ToggleableClothing
     clothingPrototypes:
       head: ClothingModsuitHelmetBloodredModsuithull
@@ -77,17 +77,19 @@
     color: "#21A52E"
 
 - type: entity
-  parent: [ClothingModsuitChestplateStandard]
+  parent: [ClothingModsuitChestplateStandard, ClothingArmorInsertHardsuitJugg]
   id: ClothingModsuitChestplateBloodredModsuithull
   name: CDT "Raider" Modsuit Chestplate
-  description: A mass production model of a modular-tacsuit that once made headlines for its showings in Solarian media. After being rejected in favor of the Shanlin tacsuit, these suits have mysteriously become commonplace among frontier pirate crews.
+  description:
   categories: [HideSpawnMenu]
   components:
   - type: Sprite
     sprite: _TG/Clothing/Modsuit/bloodredmodsuit.rsi
   - type: ClothingSpeedModifier
-    walkModifier: 0.9
-    sprintModifier: 0.9
+    walkModifier: 1.1
+    sprintModifier: 1.1
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
   - type: Armor
     modifiers:
       coefficients:
@@ -117,9 +119,14 @@
   - type: Tag
     tags:
     - WhitelistChameleon
+  - type: ItemToggle
   - type: ToggleClothing
     action: ActionToggleMagboots
+  - type: ComponentToggler
+    components:
+    - type: NoSlip
   - type: Magboots
+    enabledPrefix: null
   - type: SealableClothingVisuals
     visualLayers:
       shoes:
@@ -127,20 +134,20 @@
 
 - type: entity
   parent: [ClothingModsuitStandard]
-  id: EliteModsuitBackpack
-  name: EE-122MS "Jaeger" Modsuit Control
+  id: EliteModsuitBackpackhull
+  name: CDT-122MS "Jaeger" Modsuit Control
   description: A controller for the "Jaeger" modsuit.
   components:
   - type: Sprite
     sprite: _TG/Clothing/Modsuit/syndicateelitemodsuit.rsi
   - type: ExplosionResistance
-    damageCoefficient: 0.6
+    damageCoefficient: 0.01
   - type: ToggleableClothing
     clothingPrototypes:
-      head: ClothingModsuitHelmetEliteSyndicateModsuit
-      gloves: ClothingModsuitGauntletsEliteSyndicateModsuit
-      outerClothing: ClothingModsuitChestplateEliteSyndicateModsuit
-      shoes: ClothingModsuitBootsEliteSyndicateModsuit
+      head: ClothingModsuitHelmetEliteSyndicateModsuithull
+      gloves: ClothingModsuitGauntletsEliteSyndicateModsuithull
+      outerClothing: ClothingModsuitChestplateEliteSyndicateModsuithull
+      shoes: ClothingModsuitBootsEliteSyndicateModsuithull
   - type: ItemSlots
     slots:
       cell_slot:
@@ -162,8 +169,8 @@
 
 - type: entity
   parent: [ClothingModsuitGauntletsStandard]
-  id: ClothingModsuitGauntletsEliteSyndicateModsuit
-  name: EE-122MS "Jaeger" Modsuit Gauntlets
+  id: ClothingModsuitGauntletsEliteSyndicateModsuithull
+  name: CDT-122MS "Jaeger" Modsuit Gauntlets
   description: A pair of gauntlets made for the "Jaeger" modsuit.
   categories: [HideSpawnMenu]
   components:
@@ -177,8 +184,8 @@
 
 - type: entity
   parent: [ClothingModsuitHelmetStandard, ShowSecurityIcons]
-  id: ClothingModsuitHelmetEliteSyndicateModsuit
-  name: EE-122MS "Jaeger" Modsuit Helm
+  id: ClothingModsuitHelmetEliteSyndicateModsuithull
+  name: CDT-122MS "Jaeger" Modsuit Helm
   description: A helmet made for the "Jaeger" modsuit.
   categories: [HideSpawnMenu]
   components:
@@ -205,10 +212,10 @@
   - type: NightVision
 
 - type: entity
-  parent: [ClothingModsuitChestplateStandard]
-  id: ClothingModsuitChestplateEliteSyndicateModsuit
-  name: EE-122MS "Jaeger" Modsuit Chestplate
-  description: A mass production modular take on the Shiwei tacsuit. It trades a lot of the Shiwei's enhanced protection for modular equipment gear. Compared with the Raider modsuit, it offers unparalleled protection from energy weapons, but its ballistic protection leaves much to be desired.
+  parent: [ClothingModsuitChestplateStandard, ClothingArmorInsertHardsuit]
+  id: ClothingModsuitChestplateEliteSyndicateModsuithull
+  name: CDT-122MS "Jaeger" Modsuit Chestplate
+  description:
   categories: [HideSpawnMenu]
   components:
   - type: Sprite
@@ -219,6 +226,8 @@
         Radiation: 10
       coefficients:
         Radiation: 0.40
+  - type: ExplosionResistance
+    damageCoefficient: 0.1
   - type: TemperatureProtection
     coefficient: 0.01
   - type: ClothingModifyStunTime
@@ -233,11 +242,14 @@
     visualLayers:
       outerClothing:
       - state: equipped-OUTERCLOTHING-sealed
+  - type: ClothingSpeedModifier
+    walkModifier: 1.25
+    sprintModifier: 1.25
 
 - type: entity
   parent: [ClothingModsuitBootsStandard]
-  id: ClothingModsuitBootsEliteSyndicateModsuit
-  name: EE-122MS "Jaeger" Modsuit Boots
+  id: ClothingModsuitBootsEliteSyndicateModsuithull
+  name: CDT-122MS "Jaeger" Modsuit Boots
   description: A pair of greaves made for the "Jaeger" modsuit.
   categories: [HideSpawnMenu]
   components:
@@ -250,12 +262,14 @@
   - type: ClothingSpeedModifier
     walkModifier: 1
     sprintModifier: 1
+  - type: ItemToggle
   - type: ToggleClothing
     action: ActionToggleMagboots
   - type: ComponentToggler
     components:
     - type: NoSlip
   - type: Magboots
+    enabledPrefix: null
   - type: SealableClothingVisuals
     visualLayers:
       shoes:

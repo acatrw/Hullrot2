@@ -54,6 +54,7 @@
   - SyndicateCommand
   - Service
   - External
+  - Research
   - Mercenary # Frontier
   - Captain # Frontier
 
@@ -68,4 +69,5 @@
     gloves: ClothingHandsGlovesFingerless
     outerClothing: ClothingOuterArmorCyberdawnPatriarch
     ears: ClothingHeadsetNCSPCyberdawn
+    eyes: ClothingEyesHudSyndicateAgent
     pocket1: AccessElevatorCD
