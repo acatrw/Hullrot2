@@ -129,7 +129,7 @@
       - state: equipped-FEET-sealed
 
 - type: entity
-  parent: [ClothingModsuitStandard]
+  parent: [ClothingModsuitStandard, ClothingArmorInsertHardsuit]
   id: EliteModsuitBackpackhull
   name: CDT-122MS "Jaeger" Modsuit Control
   description: A controller for the "Jaeger" modsuit.
