@@ -70,14 +70,11 @@
       - state: equipped-HEAD-sealed
       - state: equipped-HEAD-sealed_glow
         shader: unshaded
-  - type: ShowHealthBars
-    damageContainers:
-    - Biological
   - type: PointLight
     color: "#21A52E"
 
 - type: entity
-  parent: [ClothingModsuitChestplateStandard, ClothingArmorInsertHardsuitJugg]
+  parent: [ClothingModsuitChestplateStandard]
   id: ClothingModsuitChestplateBloodredModsuithull
   name: CDT "Raider" Modsuit Chestplate
   description: The Raider monster was designed for enhanced boarding actions it provides assisted movement to the user.
@@ -203,9 +200,6 @@
       - state: equipped-HEAD-sealed
       - state: equipped-HEAD-sealed_glow
         shader: unshaded
-  - type: ShowHealthBars
-    damageContainers:
-    - Biological
   - type: PointLight
     color: "#ffd480"
 
