@@ -1,0 +1,29 @@
+- type: gameMap
+  id: Heliosphere
+  mapName: 'Heliosphere'
+  mapPath: /Maps/_Crescent/Stations/Heliosisphere.yml
+  minPlayers: 0
+  stations:
+    Dawnbreaker:
+      stationProto: StandardCrescentStation
+      gridComponents:
+        - type: BlockShipWeaponProjectileGrid
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Heliosphere'
+        - type: VesselDesignation
+          designation: vessel-designation-headquarters
+        - type: VesselMusic
+          ambientMusicPrototype: JackalMusic
+        - type: Grammar
+          attributes:
+            proper: true
+        - type: StationJobs
+          overflowJobs: []
+          availableJobs:
+            IntelligenceOfficerNCSP: [ 1, 1 ]
+            OperativeNCSP: [ 2, 2 ]
+            CyberdawnTechNCSP: [ 2, 2]
+            CoordinatorNCSP: [ 1, 1 ]
+            RipperdocNCSP: [ 2, 2 ]
+            TraumasecNCSP: [ 2, 2 ]

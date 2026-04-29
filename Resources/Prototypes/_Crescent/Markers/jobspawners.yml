@@ -231,6 +231,18 @@
       - state: passenger
 
 - type: entity
+  id: SpawnPointCoordinatorNCSP
+  parent: SpawnPointJobBase
+  name: CoordinatorNCSP
+  components:
+  - type: SpawnPoint
+    job_id: CoordinatorNCSP
+  - type: Sprite
+    layers:
+    - state: green
+    - state: passenger
+
+- type: entity
   id: SpawnPointOperative
   parent: SpawnPointJobBase
   name: cyberdawn agent
