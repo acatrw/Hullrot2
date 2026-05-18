@@ -179,6 +179,16 @@
     Steel: 1000
     Gold: 250
 
+- type: latheRecipe
+  id: C4Cyberdawn
+  result: C4
+  completetime: 0.5
+  materials:
+    BasicElectronics: 500
+    Plasma: 500
+    Steel: 100
+
+
 - type: latheRecipe #The cardboard boxes the Pinnacle of stealth technology it is the most reliable Syndicate technology ever it has successfully defeated the entirety of Central Command.
   id: StealthBoxCyberdawn
   result: StealthBox

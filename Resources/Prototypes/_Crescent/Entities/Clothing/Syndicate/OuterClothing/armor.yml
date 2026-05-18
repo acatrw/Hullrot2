@@ -120,6 +120,7 @@
         Heat: 0.8
         Cold: 0.8
         Caustic: 0.8
+        Radiation: 0.4
   - type: ClothingSpeedModifier
     walkModifier: 1
     sprintModifier: 1
@@ -148,7 +149,7 @@
         Heat: 0.7
         Cold: 0.7
         Caustic: 0.7
-        Radiation: 0.8
+        Radiation: 0.6
   - type: ExtendDescription
     descriptionList:
       - description: This is a carrier vest, it will only provide mediocre protection on its own. Put an armor insert into it to fully utilize it.

@@ -20,6 +20,9 @@
     - IND
 
 - type: npcFaction
+  id: Stealth
+
+- type: npcFaction
   id: DSM
   hostile:
     - NCWL

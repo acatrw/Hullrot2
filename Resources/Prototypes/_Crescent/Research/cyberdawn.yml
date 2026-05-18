@@ -67,6 +67,7 @@
   - ClothingBackpackChameleonFillCyberdawn
   - ClothingMaskGasVoiceChameleonCyberdawn
   - AgentIDCardCyberdawn
+  - C4Cyberdawn
 
 - type: technology
   id: CyberdawnLPCT1
@@ -225,6 +226,19 @@
   recipeUnlocks:
   - ReinforcementFlatpackSyndicateCyborgMedical
 
+- type: technology
+  id: CyberdawnPsybreaker
+  name: research-technology-cyberdawn-psybreaker
+  icon:
+    sprite: DeltaV/Objects/Weapons/Guns/Pistols/psibreaker.rsi
+    state: base
+  discipline: Cyberdawn
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+  - WeaponPistolPsiBreakerCyberdawn
+  - MagazinePistolSpecialMindbreakerCyberdawn
+
 # tier 3
 
 - type: technology
@@ -238,19 +252,6 @@
   cost: 10000
   recipeUnlocks:
   - ClothingOuterHardsuitCybersunStealthCyberdawn
-
-- type: technology
-  id: CyberdawnPsybreaker
-  name: research-technology-cyberdawn-psybreaker
-  icon:
-    sprite: DeltaV/Objects/Weapons/Guns/Pistols/psibreaker.rsi
-    state: base
-  discipline: Cyberdawn
-  tier: 3
-  cost: 10000
-  recipeUnlocks:
-  - WeaponPistolPsiBreakerCyberdawn
-  - MagazinePistolSpecialMindbreakerCyberdawn
 
 - type: technology
   id: CyberdawnThermals
